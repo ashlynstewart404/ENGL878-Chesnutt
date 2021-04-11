@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.4.0.0/tei_all.rng"  type="xml"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ccda.corr00203">
+    <teiHeader>
+        <fileDesc>
+            
+            <titleStmt>
+                <title level="m" type="main">Charles W. Chesnutt to Richard W. Gilder, 19 May 1899</title>
+                <author sameAs="#cwc"/>
+                <principal>Ashlyn Stewart</principal> 
+                <principal>Samantha Gilmore</principal>
+                <principal>Caitlin Matheis</principal>
+                
+                <respStmt>
+                    <resp>Transcription, encoding, and annotation</resp>                
+                    <persName xml:id="slg">Samantha Gilmore</persName>
+                </respStmt>
+            </titleStmt>
+            
+            <editionStmt>
+                <edition>
+                    <date>2021</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+
+                    <distributor>English 878, Archives and Editions</distributor>
+                
+                    <address>
+                        <addrLine>Center for Digital Research in the Humanities</addrLine>
+                        <addrLine>319 Love Library</addrLine>
+                        <addrLine>University of Nebraska-Lincoln</addrLine>
+                        <addrLine>P.O. Box 884100</addrLine>
+                        <addrLine>Lincoln, NE 68588-4100</addrLine>
+                    </address>
+                    <availability>
+                        <licence>http://creativecommons.org/licenses/by-nc-sa/3.0/</licence>
+                        <p>Licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License.</p>
+                        
+                    </availability>
+                
+                <idno>ccda.corr00203</idno>
+
+            </publicationStmt>
+            
+            <sourceDesc>
+                
+                <bibl>
+                    <author xml:id="cwc">Charles W. Chesnutt</author>
+                    <title>Charles W. Chesnutt to Richard W. Gilder, 19 May 1899</title>    
+                    <date cert="high" when="1899-05-19">May 19, 1899</date>
+                </bibl>
+                
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Berg Collection, New York Public Library</repository>
+                        <collection>Century Company records</collection>
+                        <idno type="callnumber">MssCol 504</idno>
+                    </msIdentifier>
+                </msDesc> 
+                
+            </sourceDesc>
+            
+        </fileDesc>
+        
+        <profileDesc>
+            
+            <correspDesc>
+                <correspAction type="sentBy">
+                    <persName ref="http://viaf.org/viaf/22198527/" sameAs="#cwc">Chesnutt, Charles W.</persName>
+                    <placeName ref="https://www.geonames.org/5150529/">Cleveland</placeName>
+                    <date sameAs="#date1"/>
+                </correspAction>
+                <correspAction type="deliveredTo">
+                    <persName ref="http://viaf.org/viaf/303746550">Gilder, Richard W.</persName>
+                    <placeName ref="https://www.geonames.org/5128581">New York City</placeName>
+                </correspAction>
+            </correspDesc> 
+           
+            <handNotes>
+                <handNote xml:id="h01" medium="printed type" resp="#unk"><name xml:id="unk">Unknown</name></handNote>
+                <handNote xml:id="h02" medium="type" resp="#cwc"/>
+                <handNote xml:id="h03" medium="ink" resp="#cwc"/>  
+            </handNotes>
+            
+        </profileDesc>
+        
+        <revisionDesc>
+            <change when="2021-03-20" who="#slg">transcribed, encoded and annotated letter</change>
+        </revisionDesc>
+        
+    </teiHeader>
+    
+    <text type="correspondence">
+        <body>
+            <div1>
+                <pb facs="ccda.corr000203.001.jpg"/>
+                
+                <fw type="letterhead" place="top-left" hand="#h01">CHAS. W. CHESNUTT<lb/><del rend="strikethrough" hand="#h03">730</del><add place="supralinear" hand="#h02">1024</add> SOCIETY FOR SAVINGS BLD'G.</fw>
+                <note hand="#h04" place="margin-left">f</note>
+            
+                <dateline><add hand="#h01">Cleveland, O.</add><date when="1899-05-19"><add hand="#h02">May 19</add> 189</date><add hand="#h02">9</add></dateline>
+
+                <opener>
+                    
+                <address>
+                    <addrLine>Mr. R.W. Gilder,</addrLine>
+                    <addrLine>Editor The century Magazine,</addrLine>
+                    <addrLine>New York.</addrLine>
+                </address>
+                    
+                <salute>Dear Mr. Gilder:-<ref type="editorial" resp="#slg" target="#rwg"/>
+                </salute>
+                    
+            </opener>
+                
+                <p hand="#h02">Your letter announcing that you could use my story "The March of Progress: gave me great pleasure, for I regard it as a very high privilege to appear in the columns of <add place="in-line" hand="#h03">"</add>Century.<add place="in-line" hand="#h03">"</add><ref type="editorial" resp="#slg"  target="#MoP"/> I thank you sincerely for your frank criticism of the art of the story, and to show that I have tried to profit by it, I have re-written the first two paragraphs, and have made a new one which I would like to have substituted, if you think it better, for the rather bald paragraph which you very correctly liken to an obituary notice&#8212;it needs only the suggestion to likeness. I should be glad to see a proof of the story in the <add place="in-line" hand="#h03">"</add>Century<add place="in-line" hand="#h03">"</add><ref type="editorial" resp="#slg" target="#tc"/> to make a good impression, and to have the art lag not too far behind the interest.</p>
+                
+                
+            <closer>
+                <salute>Sincerely yours,</salute>
+                <signed hand="#h03">Chas. W. Chesnutt.</signed>
+            </closer>
+
+            </div1>
+            
+        </body>
+        
+    </text>
+    
+    <standOff>
+        <listPerson type="publishing">
+            <person xml:id="rwg">
+                <persName>Richard Watson Gilder</persName>
+                <birth when="1844">1844</birth>
+                <death when="1909">1909</death>
+                <occupation>editor</occupation>
+                <affiliation>The Century</affiliation>
+                <note>Richard Watson Gilder was a poet and editor of the Century magazine. Нe worked as a reporter for the <hi rend="italic">Newark Daily Advertiser</hi> and the <hi rend="italics">Newark Morning Register</hi> before becoming editor of the magazine <hi rend="italic">Hours At Home</hi> in 1869. When the latter was merged with the newly-founded <hi rend="italic">Scribner's Monthly</hi> the following year, Gilder was made assistant editor under Josiah Gilbert Holland. Не succeeded Holland as editor-in-chief in 1881 and turned the publication, renamed <hi rend="italic">The Century Illustrated Monthly Magazine</hi>, into the most renowned and influential general interest magazine in the United States ("Overview," <hi rend="italic">Richard Watson Gilder papers, 1855-1916</hi> Manuscripts and Archives Division, The New York Public Library, 1987: 1).</note>
+            </person>   
+        </listPerson>
+        
+        
+        <listObject>
+            <object type="story">
+                <objectIdentifier xml:id="MoP">
+                    <msName>The March of Progress</msName>
+                </objectIdentifier>
+                <note>The short story "March of Progress" was published in <hi rend="italic">The Century</hi> in 1901, and it features a dramaticization of the problem facing a black schoolboard in Patesville, North Carolina in the 1880s (William L. Andrews, <hi rend="italic">The Literary Career of Charles W. Chesnutt</hi>, Louisiana State University Press, 1999: 82).</note>
+            </object>
+            
+            <object type="magazine">
+                <objectIdentifier xml:id="tc">
+                    <msName>The Century</msName>
+                </objectIdentifier>
+                <note><hi rend="italic">The Century Magazine</hi> was an American magazine published by The Century Company that replaced <hi rend="italic">Scribner's Monthly Magazine</hi> in 1881. The magazine published illustrated articles on history, science, and literature, sometimes publishing fiction as well. In 1930, it merged with <hi rend="italic">The Forum</hi>.</note>
+            </object>
+        </listObject>
+        
+    </standOff>
+    
+</TEI>
+

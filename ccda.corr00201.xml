@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.4.0.0/tei_all.rng"  type="xml"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ccda.corr00201">
+    <teiHeader>
+        <fileDesc>
+
+            <titleStmt>
+                <title level="m" type="main">Charles W. Chesnutt to Robert Underwood Johnson, 5 May
+                    1900</title>
+                <author sameAs="#cwc"/>
+                <principal>Ashlyn Stewart</principal>
+                <principal>Samantha Gilmore</principal>
+                <principal>Caitlin Matheis</principal>
+
+                <respStmt>
+                    <resp>Transcription, encoding, and annotation</resp>
+                    <persName xml:id="slg">Samantha Gilmore</persName>
+                </respStmt>
+            </titleStmt>
+
+            <editionStmt>
+                <edition>
+                    <date>2021</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+
+                <distributor>English 878, Archives and Editions</distributor>
+
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+
+                <availability>
+
+                    <licence>http://creativecommons.org/licenses/by-nc-sa/3.0/</licence>
+                    <p>Licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0
+                        Unported License.</p>
+
+                </availability>
+
+                <idno>ccda.corr00201</idno>
+
+            </publicationStmt>
+
+            <sourceDesc>
+
+                <bibl>
+                    <author xml:id="cwc">Charles W. Chesnutt</author>
+                    <title>Charles W. Chesnutt to Robert Underwood Johnson, 5 May 1900</title>
+                    <date cert="high" when="1900-05-05">May 5, 1900</date>
+                </bibl>
+
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Berg Collection, New York Public Library</repository>
+                        <collection>Century Company records</collection>
+                        <idno type="callnumber">MssCol 504</idno>
+                    </msIdentifier>
+                </msDesc>
+
+            </sourceDesc>
+
+        </fileDesc>
+
+        <profileDesc>
+
+            <correspDesc>
+                <correspAction type="sentBy">
+                    <persName ref="http://viaf.org/viaf/22198527/" sameAs="#cwc">Chesnutt, Charles
+                        W.</persName>
+                    <placeName ref="https://www.geonames.org/5150529/">Cleveland</placeName>
+                    <date sameAs="#date1"/>
+                </correspAction>
+                <correspAction type="deliveredTo">
+                    <persName ref="http://viaf.org/viaf/79126860">Johnson, Robert
+                        Underwood</persName>
+                    <placeName ref="https://www.geonames.org/5128581">New York City</placeName>
+                </correspAction>
+            </correspDesc>
+
+            <handNotes>
+                <handNote xml:id="h01" medium="ink" resp="#cwc"/>
+                <handNote xml:id="h02" medium="pencil" resp="#unk"><name>Unknown</name></handNote>
+            </handNotes>
+
+        </profileDesc>
+
+        <revisionDesc>
+            <change when="2021-03-20" who="#slg">transcribed, encoded and annotated letter</change>
+        </revisionDesc>
+
+    </teiHeader>
+
+    <text type="correspondence">
+        <body>
+            <div1>
+                <pb facs="ccda.corr000201.001.jpg"/>
+
+                <fw type="letterhead" place="top-right" hand="#h01">64 Brenton St.<lb/>Cleveland,
+                    O.</fw>
+
+                <note hand="#h02" place="margin-left">8</note>
+
+                <dateline><date when="1900-05-05">May 5, 1900</date></dateline>
+
+                <opener>
+                    <salute>Dear Mr. Johnson,<ref type="editorial" resp="#slg" target="#ruj"
+                        /></salute>
+                </opener>
+
+                <p hand="#h01">I meant to have acknowledged sooner the return of my manuscript "The
+                    Rainbow Chasers."<ref type="editorial" resp="#slg" n="1" target="trc"/> It is
+                    pleasing to know that you think it has striking good qualities as a book; and
+                    while you did not find it available for the Century,<ref type="editorial"
+                        resp="#slg" target="#tc"/> I shall regard it as a favor&#8248;<add
+                        hand="#h01" place="supralinear">to me</add>on your part to have read it, and
+                    shall hope for better luck with some future MS.</p>
+
+                <closer>
+                    <salute>Yours sincerely,</salute>
+                    <signed hand="#h01">Chas. W. Chesnutt.</signed>
+                    
+                    <address>
+                        <addrLine>R.U. Johnson, Esq.,<lb/>Associate Editor.</addrLine>
+                    </address>
+                </closer>
+
+            </div1>
+
+        </body>
+
+    </text>
+
+    <standOff>
+        <listPerson type="publishing">
+            <person xml:id="ruj">
+                <persName>Robert Underwood Johnson</persName>
+                <birth when="1853">1853</birth>
+                <death when="1937">1937</death>
+                <occupation>associate editor</occupation>
+                <affiliation>The Century</affiliation>
+                <note>Robert Underwood Johnson, born in 1853, was an editor of The Century
+                    Magazine from 1879 until 1913. He also served as the American Ambassador to
+                    Italy from 1920-1921, and was a founding member of the American Copyright
+                    League. He was a published poet, and active in a number of humanitarian and
+                    artistic pursuits (Kit Messick, "Biographical Note," <hi rend="italic">Robert
+                        Underwood Johnson Papers 1875-1937 Finding Aid</hi>, The New York Public
+                    Library, Humanities and Social Sciences Library, Manuscripts and Archives
+                    Division, 2008: v).</note>
+            </person>
+        </listPerson>
+
+        <listObject>
+            <object type="book">
+                <objectIdentifier xml:id="trc">
+                    <msName>The Rainbow Chasers</msName>
+                </objectIdentifier>
+                <note>The book "The Rainbow Chasers" is Chesnutt's attempt at entering the popular
+                    market with a nonracial romance. The conventional story centers on a
+                    well-meaning, middle-aged bachelor who acts as a go-between for suitors to a
+                    beautiful widow, who marries the bachelor in the end. Ultimately, Chesnutt is
+                    unable to find a publisher for this book. (William L. Andrews, <hi rend="italic"
+                        >The Literary Career of Charles W. Chesnutt</hi>, Louisiana State University
+                    Press, 1999: 121-2).</note>
+                <note n="1">Chesnutt met with Johnson in New York City on March 24th. On that day,
+                    he received a letter from Houghton, Mifflin, rejecting his story, "The Rainbow
+                    Chasers." In response, Chesnutt began searching for a new publisher. Johnson
+                    declined this manuscript on May 2nd, for not having "the qualities necessary for
+                    availability as a serial for <hi rend="italic">The Century</hi>, though it has
+                    striking good features for a book" (Charles W. Chesnutt, <hi rend="italic">“To
+                        Be an Author”: Letters of Charles W. Chesnutt, 1889-1905</hi>, ed. Joseph R.
+                    McElrath, Jr. and Robert C. Leitz, III, Princeton University Press, 1997:
+                    145-6).</note>
+            </object>
+
+            <object type="magazine">
+                <objectIdentifier xml:id="tc">
+                    <msName>The Century</msName>
+                </objectIdentifier>
+                <note><hi rend="italic">The Century Magazine</hi> was an American magazine
+                    published by The Century Company that replaced <hi rend="italic">Scribner's
+                        Monthly Magazine</hi> in 1881. The magazine published illustrated articles
+                    on history, science, and literature, sometimes publishing fiction as well. In
+                    1930, it merged with <hi rend="italic">The Forum</hi>.</note>
+            </object>
+        </listObject>
+
+    </standOff>
+
+</TEI>

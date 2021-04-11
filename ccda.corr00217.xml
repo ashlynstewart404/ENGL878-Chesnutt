@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.4.0.0/tei_all.rng"  type="xml"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ccda.corr00217">
+    <teiHeader>
+        <fileDesc>
+            
+            <titleStmt>
+                <title level="m" type="main">Charles W. Chesnutt to Editor of The Journal of Negro History, 3 January 1917</title>
+                <author sameAs="#cwc"/>
+                <principal>Ashlyn Stewart</principal> 
+                <principal>Samantha Gilmore</principal>
+                <principal>Caitlin Matheis</principal>
+                
+                <respStmt>
+                    <resp>Transcription, encoding</resp>                
+                    <persName xml:id="as">Ashlyn Stewart</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Annotation</resp>                
+                    <persName xml:id="slg">Samantha Gilmore</persName>
+                </respStmt>
+            </titleStmt>
+            
+            <editionStmt>
+                <edition>
+                    <date>2021</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+
+                    <distributor>English 878, Archives and Editions</distributor>
+                
+                    <address>
+                        <addrLine>Center for Digital Research in the Humanities</addrLine>
+                        <addrLine>319 Love Library</addrLine>
+                        <addrLine>University of Nebraska-Lincoln</addrLine>
+                        <addrLine>P.O. Box 884100</addrLine>
+                        <addrLine>Lincoln, NE 68588-4100</addrLine>
+                    </address>
+                    <availability>
+                        <licence>http://creativecommons.org/licenses/by-nc-sa/3.0/</licence>
+                        <p>Licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License.</p>
+                        
+                    </availability>
+                
+                <idno>ccda.corr00217</idno>
+
+            </publicationStmt>
+            
+            <sourceDesc>
+                
+                <bibl>
+                    <author xml:id="cwc">Charles W. Chesnutt</author>
+                    <title>Charles W. Chesnutt to Editor of The Journal of Negro History, 3 January 1917</title>    
+                    <date cert="high" when="1895-04-11">3 January, 1917</date>
+                </bibl>
+                
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Manuscript Division, Library of Congress</repository>
+                    </msIdentifier>
+                </msDesc> 
+                
+            </sourceDesc>
+            
+        </fileDesc>
+        
+        <profileDesc>
+            
+            <correspDesc>
+                <correspAction type="sentBy">
+                    <persName ref="http://viaf.org/viaf/22198527/" sameAs="#cwc">Chesnutt, Charles W.</persName>
+                    <placeName ref="https://www.geonames.org/5150529/">Cleveland</placeName>
+                    <date sameAs="#date1"/>
+                </correspAction>
+                <correspAction type="deliveredTo">
+                    <persName ref="http://viaf.org/viaf/303746550">????</persName>
+                    <placeName ref="https://www.geonames.org/4140963">Washington, D. C.</placeName>
+                </correspAction>
+            </correspDesc> 
+           
+            <handNotes>
+                <handNote xml:id="h01" medium="printed type" resp="#unk"><name xml:id="unk">Unknown</name></handNote>
+                <handNote xml:id="h02" medium="type" resp="#cwc"/>
+                <handNote xml:id="h04" medium="pencil" resp="#unk"><name>Unknown</name></handNote>
+            </handNotes>
+            
+        </profileDesc>
+        
+        <revisionDesc>
+            <change when="2021-03-22" who="#as">transcribed, encoded letter</change>
+            <change when="2021-03-22" who="#slg">annotated letter</change>
+        </revisionDesc>
+        
+    </teiHeader>
+    
+    <text type="correspondence">
+        <body>
+            <div1>
+                <pb facs="ccda.corr000217.001.jpg"/>
+                
+                <fw type="letterhead" place="top-left" hand="#h01">CHAS. W. CHESNUTT<lb/>1105 WILLIAMSON BUILDING<lb/>CLEVELAND O</fw>
+            
+                <dateline>Cleveland, Ohio, <date when="1917-01-03"><add hand="#h02">January 3, 1917.</add></date></dateline>
+
+                <opener>
+                    
+                <address>
+                    <addrLine>The Editor of The Journal of Negro History,</addrLine>
+                    <addrLine>1219 You Street, N. W.,</addrLine>
+                    <addrLine>Washington, D. C.</addrLine>
+                </address>
+                    
+                <salute>Dear Sir:-<note type="editorial" resp="#slg" n="1" target="#cgw"/>
+                </salute>
+                    
+            </opener>
+                
+                <p hand="#h02">I am very glad to add my name to the list of subscribers to The Journal of Negro History.<note type="editorial" resp="#slg" n="2" target="#jnh"/>  It is so customary to assume that the Negro has contributed nothing noteworthy to civilization, that a magazine, which in the interst of truth, will call attention to the other side of the ledger, will supply a distinct need and ought to be cordially adn adequately supported.</p>
+                
+            <closer>
+                <salute>Sincerely yours,</salute>
+                <signed hand="#h03">Chas. W. Chesnutt.</signed>
+            </closer>
+                <note type="authorial" hand="#h02">CWC:MOC</note>
+            </div1>
+            
+        </body>
+        
+    </text>
+    
+    <standOff>
+        <listPerson type="publishing">
+            <person xml:id="cgw">
+                <persName>Carter G. Woodson</persName>
+                <birth when="1875-12-19">19 December 1875</birth>
+                <death when="1950-04-03">3 April 1950</death>
+                <occupation>editor</occupation>
+                <occupation>historian</occupation>
+                <affiliation>The Journal of Negro History</affiliation>
+                <note n="1">Carter G. Woodson was a professor and historian at Howard University. He was among the first black scholars to receive a doctoral degree and a pioneer of black history and African American studies. He founded <hi rend="italic">The Journal of African American History</hi> (formally the <hi rend="italic">Journal of Negro History</hi>), in January 1916 as one of the first scholarly texts or journals to cover African-American history. Woodson was the editor until 1950 (Korey Bowers Brown, “Carter G. Woodson,” <hi rend="italic">Our History</hi> Association for the Study of African American Life and History, https://asalh.org/about-us/our-history/). 
+                </note>
+            </person>
+        </listPerson>
+        
+        <listObject>
+            <object type="magazine">
+                <objectIdentifier xml:id="jnh">
+                    <msName>The Journal of Negro History</msName>
+                </objectIdentifier>
+                <note n="2"><hi rend="italic">The Journal of Negro History</hi> was founded in 1916 by Dr. Carter G. Woodson, as one of the first journals to cover African American history. Though Chesnutt was consistently a subscriber to the journal, he did not contribute any publications.</note>
+            </object>
+        </listObject> 
+        
+    </standOff>
+    
+</TEI>
+

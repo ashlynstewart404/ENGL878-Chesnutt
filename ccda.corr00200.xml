@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.4.0.0/tei_all.rng"  type="xml"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ccda.corr00200">
+    <teiHeader>
+        <fileDesc>
+            
+            <titleStmt>
+                <title level="m" type="main">Charles W. Chesnutt to Richard W. Gilder, 11 April 1895</title>
+                <author sameAs="#cwc"/>
+                <principal>Ashlyn Stewart</principal> 
+                <principal>Samantha Gilmore</principal>
+                <principal>Caitlin Matheis</principal>
+                
+                <respStmt>
+                    <resp>Transcription, encoding, and annotation</resp>                
+                    <persName xml:id="slg">Samantha Gilmore</persName>
+                </respStmt>
+            </titleStmt>
+            
+            <editionStmt>
+                <edition>
+                    <date>2021</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+
+                    <distributor>English 878, Archives and Editions</distributor>
+                
+                    <address>
+                        <addrLine>Center for Digital Research in the Humanities</addrLine>
+                        <addrLine>319 Love Library</addrLine>
+                        <addrLine>University of Nebraska-Lincoln</addrLine>
+                        <addrLine>P.O. Box 884100</addrLine>
+                        <addrLine>Lincoln, NE 68588-4100</addrLine>
+                    </address>
+                    <availability>
+                        <licence>http://creativecommons.org/licenses/by-nc-sa/3.0/</licence>
+                        <p>Licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License.</p>
+                        
+                    </availability>
+                
+                <idno>ccda.corr00200</idno>
+
+            </publicationStmt>
+            
+            <sourceDesc>
+                
+                <bibl>
+                    <author xml:id="cwc">Charles W. Chesnutt</author>
+                    <title>Charles W. Chesnutt to Richard W. Gilder, 11 April 1895</title>    
+                    <date cert="high" when="1895-04-11">April 11, 1895</date>
+                </bibl>
+                
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Berg Collection, New York Public Library</repository>
+                        <collection>Century Company records</collection>
+                        <idno type="callnumber">MssCol 504</idno>
+                    </msIdentifier>
+                </msDesc> 
+                
+            </sourceDesc>
+            
+        </fileDesc>
+        
+        <profileDesc>
+            
+            <correspDesc>
+                <correspAction type="sentBy">
+                    <persName ref="http://viaf.org/viaf/22198527/" sameAs="#cwc">Chesnutt, Charles W.</persName>
+                    <placeName ref="https://www.geonames.org/5150529/">Cleveland</placeName>
+                    <date sameAs="#date1"/>
+                </correspAction>
+                <correspAction type="deliveredTo">
+                    <persName ref="http://viaf.org/viaf/303746550">Gilder, Richard W.</persName>
+                    <placeName ref="https://www.geonames.org/5128581">New York City</placeName>
+                </correspAction>
+            </correspDesc> 
+           
+            <handNotes>
+                <handNote xml:id="h01" medium="printed type" resp="#unk"><name xml:id="unk">Unknown</name></handNote>
+                <handNote xml:id="h02" medium="type" resp="#cwc"/>
+                <handNote xml:id="h03" medium="ink" resp="#cwc"/>
+                <handNote xml:id="h04" medium="pencil" resp="#unk"><name>Unknown</name></handNote>
+            </handNotes>
+            
+        </profileDesc>
+        
+        <revisionDesc>
+            <change when="2021-03-12" who="#slg">transcribed, encoded and annotated letter</change>
+        </revisionDesc>
+        
+    </teiHeader>
+    
+    <text type="correspondence">
+        <body>
+            <div1>
+                <pb facs="ccda.corr000200.001.jpg"/>
+                
+                <fw type="letterhead" place="top-left" hand="#h01">CHAS. W. CHESNUTT<lb/><del rend="strikethrough" hand="#h03">730</del><add place="supralinear" hand="#h02">1024</add> SOCIETY FOR SAVINGS BLD'G.</fw>
+                <note hand="#h04" place="margin-left">f</note>
+            
+                <dateline><add hand="#h01">Cleveland, O.</add><date when="1895-04-11"><add hand="#h02">April 11,</add> 189</date><add hand="#h02">5</add></dateline>
+
+                <opener>
+                    
+                <address>
+                    <addrLine> Richard W. Gilder, Esq.,</addrLine>
+                    <addrLine>Editor Century Magazine,</addrLine>
+                    <addrLine>New York City</addrLine>
+                </address>
+                    
+                <salute>Dear Sir:-<ref type="editorial" resp="#slg" n="1" target="#rwg"/>
+                </salute>
+                    
+            </opener>
+                
+                <p hand="#h02">Several years ago I sent you, through Mr. G. W. Cable<ref type="editorial" resp="#slg" n="2" target="#gwc"/>, a story entitled "Rena Walden"<ref type="editorial" resp="#slg" target="#rw"/>. You were kind enough to read through it, and expressed a willingness to see more of the author's work. You also suggested that the story be re-written along certain lines indicated by you.  The attempt was made, but was not successful; in fact the story was not sensibly altered.</p>
+                
+                <p>After five years' study of life and literature, I have recast the story of "Rena Walden", having always in mind your criticism and suggestions. It is now a novellete of about 25,000 words. I would not venture to send it to you again without asking in advance whether you would be willing to reconsider it.</p>
+                
+                <p>I have written considerably more since this story was written but with one exception have offered nothing for publication, having been mainly absorbed in other pursuits. I always believed in this story <hi rend="underline">as a story</hi>, and hope that it may now find favor in some one's eyes as a work of art as well.</p>
+                
+                <p>If you would be willing to read this story again with a view to its publication in the Century, if found available, I shall be glad to forward it when I hear from you to that effect. It seemed to interest you before, and I am sure it is in every way an improvement on the former version.</p>
+                
+            <closer>
+                <salute>Very respectfully yours,</salute>
+                <signed hand="#h03">Chas. W. Chesnutt.</signed>
+            </closer>
+
+            </div1>
+            
+        </body>
+        
+    </text>
+    
+    <standOff>
+        <listPerson type="publishing">
+            <person xml:id="rwg">
+                <persName>Richard Watson Gilder</persName>
+                <birth when="1844">1844</birth>
+                <death when="1909">1909</death>
+                <occupation>editor</occupation>
+                <affiliation>The Century</affiliation>
+                <note>Richard Watson Gilder was a poet and editor of the Century magazine. Нe worked as a reporter for the <hi rend="italic">Newark Daily Advertiser</hi> and the <hi rend="italics">Newark Morning Register</hi> before becoming editor of the magazine <hi rend="italic">Hours At Home</hi> in 1869. When the latter was merged with the newly-founded <hi rend="italic">Scribner's Monthly</hi> the following year, Gilder was made assistant editor under Josiah Gilbert Holland. Не succeeded Holland as editor-in-chief in 1881 and turned the publication, renamed <hi rend="italic">The Century Illustrated Monthly Magazine</hi>, into the most renowned and influential general interest magazine in the United States ("Overview," <hi rend="italic">Richard Watson Gilder papers, 1855-1916</hi> Manuscripts and Archives Division, The New York Public Library, 1987: 1).</note>
+                <note n="1">Gilder agreed to reconsider "Rena" on April 17, but he warned Chesnutt that there would not be enough space in <hi rend="italic">The Century</hi> for a few years and that would be lost time for the story (Charles W. Chesnutt, <hi rend="italic">“To Be an Author”: Letters of Charles W. Chesnutt, 1889-1905</hi>, ed. Joseph R. McElrath, Jr. and Robert C. Leitz, III, Princeton University Press, 1997: 84).</note>
+            </person>
+            
+            <person xml:id="gwc">
+                <persName>George Washington Cable</persName>
+                <birth when="1844">2844</birth>
+                <death when="1925">1925</death>
+                <occupation>author and critic</occupation>
+                <note>George Washington Cable, an American author and critic, was born in New Orleans and fought for the South in the Civil War. His first collection of tales of life in the south was <hi rend="italic">Old Creole Days</hi> (1879). Cable and Chesnutt met for the first time in Cleveland, on December 21, 1888, at the Congregational Club's Forefather's Day celebration, where Cable was the principal speaker. Cable remained Chesnutt's mentor and friend for the duration of his life (Charles W. Chesnutt, <hi rend="italic">“To Be an Author”: Letters of Charles W. Chesnutt, 1889-1905</hi>, ed. Joseph R. McElrath, Jr. and Robert C. Leitz, III, Princeton University Press, 1997: 29-30).</note>
+                <note n="2">Cable acted as intermediary with Richard Watson Gilder in the spring of 1890. Cable sent the original draft of "Rena Walden" in early May 1890, and Gilder rejected this first draft on May 28, 1890, claiming, "This story of Chesnutts 'Rena Walden' I have read with great care I'm extremely sorry not to find it feasible....There is either a lack of humor in the author or a brutality in the characters, &amp; lack of mellowness, lack of spontaneous imaginative life in the people, lack of outlook&#8212;I don't know what&#8212;that makes them&#8212;as here depicted&#8212;<hi rend="italic">uninteresting</hi>. I think it is the writers fault, rather than the people's. The result seems to me a crude study, not a thoroughly human one....(Charles W. Chesnutt, <hi rend="italic">“To Be an Author”: Letters of Charles W. Chesnutt, 1889-1905</hi>, ed. Joseph R. McElrath, Jr. and Robert C. Leitz, III, Princeton University Press, 1997: 61-7).</note>
+            </person>
+        </listPerson>
+        
+        <listObject>
+            <object type="Novel">
+                <objectIdentifier xml:id="rw">
+                    <msName>Rena Walden</msName>
+                </objectIdentifier>
+                <note>The manuscript "Rena Walden," which Chesnutt began writing in 1889, is a "tragic mulatto" story that was revised several times before being published in expanded form in 1900 as <hi rend="italic">House Behind the Cedars</hi> (Charles W. Chesnutt, <hi rend="italic">“To Be an Author”: Letters of Charles W. Chesnutt, 1889-1905</hi>, ed. Joseph R. McElrath, Jr. and Robert C. Leitz, III, Princeton University Press, 1997: 37n2).</note>
+            </object>
+        </listObject>
+    </standOff>
+    
+</TEI>
+

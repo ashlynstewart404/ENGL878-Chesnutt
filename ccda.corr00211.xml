@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.4.0.0/tei_all.rng"  type="xml"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ccda.corr00211">
+    <teiHeader>
+        <fileDesc>
+
+            <titleStmt>
+                <title level="m" type="main">Charles W. Chesnutt to Horace Traubel, 6 November
+                    1905</title>
+                <author sameAs="#cwc"/>
+                <principal>Ashlyn Stewart</principal>
+                <principal>Samantha Gilmore</principal>
+                <principal>Caitlin Matheis</principal>
+
+                <respStmt>
+                    <resp>Transcription, encoding, and annotation</resp>
+                    <persName xml:id="csm">Caitlin Matheis</persName>
+                </respStmt>
+            </titleStmt>
+
+            <editionStmt>
+                <edition> <date>2021</date> </edition>
+            </editionStmt>
+            <publicationStmt>
+
+                <distributor>English 878, Archives and Editions</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <licence>http://creativecommons.org/licenses/by-nc-sa/3.0/</licence>
+                    <p>Licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0
+                        Unported License.</p>
+
+                </availability>
+
+                <idno>ccda.corr00211</idno>
+
+            </publicationStmt>
+
+            <sourceDesc>
+
+                <bibl> <author xml:id="cwc">Charles W. Chesnutt</author> <title>Charles W. Chesnutt
+                    to Horace Traubel, 6 November 1905</title> <date cert="high" when="1905-11-06"
+                    >November 6,1905</date> </bibl>
+
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Manuscripts Division, Library of Congress </repository>
+                        <collection>Horace Traubel and Anne Montgomerie Traubel Papers</collection>
+                        <idno type="callnumber">MSS43141</idno>
+                    </msIdentifier>
+                </msDesc>
+
+            </sourceDesc>
+
+        </fileDesc>
+
+        <profileDesc>
+
+            <correspDesc>
+                <correspAction type="sentBy">
+                    <persName ref="http://viaf.org/viaf/22198527/" sameAs="#cwc">Chesnutt, Charles
+                        W.</persName>
+                    <placeName ref="https://www.geonames.org/5150529/">Cleveland</placeName>
+                    <date sameAs="#date1"/>
+                </correspAction>
+                <correspAction type="deliveredTo">
+                    <persName ref="https://viaf.org/viaf/44423462/">Horace Traubel</persName>
+                    <placeName ref="https://www.geonames.org/4560349">Philadelphia</placeName>
+                </correspAction>
+            </correspDesc>
+
+            <handNotes>
+                <handNote xml:id="h01" medium="printed type" resp="#unk"><name xml:id="unk"
+                    >Unknown</name></handNote>
+                <handNote xml:id="h02" medium="type" resp="#cwc"/>
+                <handNote xml:id="h03" medium="ink" resp="#cwc"/>
+                <handNote xml:id="h04" medium="pencil" resp="#unk"><name>Unknown</name></handNote>
+                <handNote xml:id="h05" medium="ink" resp="#Traub"><name>Horace
+                    Traubel</name></handNote>
+            </handNotes>
+
+        </profileDesc>
+
+        <revisionDesc>
+            <change when="2021-03-29" who="#csm">transcribed, encoded and annotated letter</change>
+        </revisionDesc>
+
+    </teiHeader>
+
+    <text type="correspondence">
+        <body>
+            <div1>
+                <pb facs="ccda.corr000211.001.jpg"/>
+
+                <fw type="letterhead" place="top-left" hand="#h01">CHAS. W. CHESNUTT<lb/>1005
+                    WILLIAMSON BUILDING<lb/>CLEVELAND, O.</fw>
+
+
+                <dateline><add hand="#h02">Cleveland, <date when="1905-11-06">November 6,
+                    1905.</date></add></dateline>
+
+                <opener> <address>
+                    <addrLine> Horace Traubel, Esq.,</addrLine>
+                    <addrLine>1624 Walnut Street,</addrLine>
+                    <addrLine>Philadelphia, Pa.,</addrLine>
+                    </address> <salute>My dear Mr. Traubel:&#8212;<ref type="editorial" resp="#slg"
+                    n="1" target="Traub"/></salute> </opener>
+
+                <p hand="#h02">On September 16th last I addressed you a letter, in which I enclosed
+                    a money order for $2.25, for a copy of the popular edition of Leaves of
+                    Grass"<ref type="editorial" resp="#csm" n="2" target="LoG"/> and a copy of
+                    "Chants Communal."<ref type="editorial" resp="#csm" n="3" target="Chants"/> As I
+                    have not received the books, I have been wondering if my letter miscarried or
+                    was perhaps mislaid after reaching its destination. If you will kindly let me
+                    know whether it came to hand or not, I shall be obliged.</p>
+
+                <p>Did you get a copy of "The Colonel's Dream"?<ref type="editorial" resp="#as"
+                    n="4" target="Colsdream"/> I am under the impression that I requested my
+                    publishers to send it, though I presume you are on their list. I hope the book,
+                    or at least my motive in writing<add hand="#h03">,</add> it will commend itself
+                    to you. I have just been reading your appreciation of Henry Irving<ref
+                    type="editorial" resp="#csm" n="4" target="hirving"/> it is very fine and very
+                    just. The world is better because he lived.</p>
+
+                <closer> <salute>Sincerely yours,</salute> <signed hand="#h03">Chas. W.
+                    Chesnutt</signed> </closer>
+
+                <note hand="#h05" place="margin-left">sent to<lb/>second<lb/>Copy Chants<lb/><hi
+                    rend="underline"><unclear>noon</unclear></hi></note>
+
+
+            </div1>
+
+        </body>
+
+    </text>
+
+    <standOff>
+
+        <listPerson type="publishing">
+            <person xml:id="Traub">
+                <persName>Horace Traubel</persName>
+                <birth when="1858-12-19">19 December 1858</birth>
+                <death when="1919-09-09">9 September 1919</death>
+                <occupation>editor</occupation>
+                <affiliation>The Conservator</affiliation>
+                <note>Horace Traubel was an American poet, essayist, and author. Traubel was also a
+                    dedicated Socialist, and one of the founders of the socialist weekly newspaper
+                    <hi rend="italic">The Worker</hi>. He is best known for being Whitman's literary
+                    executor and author of a nine-volume biography of Whitman's final four years
+                    (1888-1892), entitled <hi rend="italic">Walt Whitman in Camden</hi>.</note>
+                <note n="1">This is one of the earliest letters that Chesnutt send Traubel. The two
+                    men had a friendly working relationship; Chesnutt was a fan of the magazine that
+                    Traubel founded, <hi rend="italic">The Conservator</hi>, and Traubel
+                    consistently praised Chesnutt and his writing in reviews featured in his
+                    periodical.</note>
+            </person>
+        </listPerson>
+
+        <listObject>
+            <object type="book">
+                <objectIdentifier xml:id="LoG">
+                    <msName>Leaves of Grass</msName>
+                </objectIdentifier>
+                <note><hi rend="italic">Leaves of Grass</hi> is Walt Whitman's most renowned work;
+                    seven revised editions of the collection in Whitman's lifetime.</note>
+                <note n="2">The "popular edition" that Chesnutt refers to is likely the Deathbed
+                    Edition of <hi rend="italics">Leaves of Grass</hi>, published just two months
+                    before Whitman's death. In a statement announcing the publication of this
+                    edition, Whitman claimed that <hi rend="italic">Leaves of Grass</hi> was finally
+                    complete.</note>
+            </object>
+        </listObject>
+
+        <listObject>
+            <object type="book">
+                <objectIdentifier xml:id="Chants">
+                    <msName>Chant's Communal</msName>
+                </objectIdentifier>
+                <note n="3"><hi rend="italic">Chant's Communal</hi>was a collection of many of the
+                    essays that Horace Traubel wrote for <hi rend="italic">The Worker</hi>, a weekly
+                    socialist newspaper that he helped found.</note>
+            </object>
+        </listObject>
+
+        <listObject>
+            <object type="novel">
+                <objectIdentifier xml:id="Colsdream">
+                    <msName>The Colonel's Dream</msName>
+                </objectIdentifier>
+                <note n="4"><hi rend="italic">The Colonel's Dream</hi> (1905) was Chesnutt's final
+                    novel. The book gained little critical attention and didn't sell well&#8212;a
+                    reality that stood in opposition to the book's dedication: "to bring the forces
+                    of enlightenment to bear upon the vexed problems which harass the South." <hi
+                    rend="italic">The Colonel's Dream</hi> tells the story of Colonel French, a
+                    successful New York businessman and recent widow who returns to his Southern
+                    birthplace, Clarendon, with his son, Phil. French attempts to advance
+                    Clarendon's social and economic progress for the modern era, hoping to overcome
+                    its prejudices, rigid social divisions, and corruptions and finds a nemesis in
+                    the wealthy convict labor contractor, William Fetters. Ultimately, French
+                    underestimates the entrenched racism of the town, and despite his best efforts,
+                    Clarendon appears wholly unchanged.</note>
+            </object>
+        </listObject>
+
+        <listPerson type="publishing">
+            <person xml:id="hirving">
+                <persName>Henry Irving</persName>
+                <birth when="1838-02-06">6 February 1838</birth>
+                <death when="1905-10-13">13 October 1905</death>
+                <occupation>actor</occupation>
+                <note n="5">Sir Henry Irving was a renowned English actor and manager at the Lyceum
+                    Theater, where he eventually established his own Company. Throughout his
+                    lifetime, he starred in several shows, including <hi rend="italic">Hamlet</hi>,
+                    <hi rend="italic">The Bells</hi> and <hi rend="italic">Queen Mary</hi>. Irving
+                    was one of the inspirations for the character of Count Dracula. <hi
+                    rend="italic">Dracula</hi>'s author, Bram Stoker, worked as the business manager
+                    for Irving at the Lyceum Theater starting in 1878.</note>
+            </person>
+        </listPerson>
+
+    </standOff>
+
+</TEI>
