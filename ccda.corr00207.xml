@@ -101,25 +101,25 @@
                     1902</date></add></dateline>
 
                 <opener> <salute hand="#h03">My dear Mr. Traubel:&#8212;<ref type="editorial"
-                    resp="#slg" n="1" target="Traub"/></salute> </opener>
+                    resp="#slg" target="Traub"/></salute> </opener>
 
                 <p hand="#h03">Thanks for your kind notice of "The Conjure Woman,"<ref
-                    type="editorial" resp="#csm" n="2" target="tcw"/> or rather of its author, in
+                    type="editorial" resp="#csm" target="tcw"/> or rather of its author, in
                     the November Conservator.<ref type="editorial" resp="#slg" n="3"
                     target="Conserv"/></p>
 
                 <p hand="#h03">Some of the plots of the stories&#8212;aside of course from their
                     racial or sociological aspects, seem to have become popular of late. T.
-                    Anstey's<ref type="editorial" resp="#csm" n="4" target="tag"/> "The Brass
-                    Bottle"<ref type="editorial" resp="#csm" n="5" target="tbb"/> has a professor
+                    Anstey's<ref type="editorial" resp="#csm" target="tag"/> "The Brass
+                    Bottle"<ref type="editorial" resp="#csm" target="tbb"/> has a professor
                     who is changed by conjuration to a mule + indulges in antics very similar to
                     those of the long&#8211;eared animal in "The Conjurer's Revenge,"<ref
-                    type="editorial" resp="#csm" n="6" target="tcr"/> while J.M. Barrie's<ref
-                    type="editorial" resp="#csm" n="7" target="jmb"/> "Little White Bird<ref
-                    type="editorial" resp="csm" n="8" target="lwb"/> is an amplification of <add
+                    type="editorial" resp="#csm" target="tcr"/> while J.M. Barrie's<ref
+                    type="editorial" resp="#csm" target="jmb"/> "Little White Bird<ref
+                    type="editorial" resp="csm" target="lwb"/> is an amplification of <add
                     hand="#h03" place="supralinear">mark of</add><add hand="#h03" place="below"
                     ><metamark>^</metamark></add> the machinery of "Sis' Becky's Pickanninny."<ref
-                    type="editorial" resp="#csm" n="9" target="sbp"/> These of course are probably
+                    type="editorial" resp="#csm" target="sbp"/> These of course are probably
                     mere coincidences. But they are interesting.</p>
 
                 <p hand="#h03">Thanking you again for your encouraging comment + appreciation, I
@@ -149,11 +149,6 @@
                     <hi rend="italic">The Worker</hi>. He is best known for being Whitman's literary
                     executor and author of a nine-volume biography of Whitman's final four years
                     (1888-1892), entitled <hi rend="italic">Walt Whitman in Camden</hi>.</note>
-                <note n="1">This is one of the earliest letters that Chesnutt send Traubel. The two
-                    men had a friendly working relationship; Chesnutt was a fan of the magazine that
-                    Traubel founded, <hi rend="italic">The Conservator</hi>, and Traubel
-                    consistently praised Chesnutt and his writing in reviews featured in his
-                    periodical.</note>
             </person>
         </listPerson>
 
@@ -162,7 +157,7 @@
                 <objectIdentifier xml:id="tcw">
                     <msName>The Conjure Woman</msName>
                 </objectIdentifier>
-                <note n="2"><hi rend="italic">The Conjure Woman</hi> is a collection of short
+                <note><hi rend="italic">The Conjure Woman</hi> is a collection of short
                     stories by Chesnutt published in 1899. All of the tales are framed with
                     narration by a white Northerner, John, who has travelled to the South with his
                     wife, Annie, looking for a place to live. He recounts Uncle Julius, a man who
@@ -176,7 +171,7 @@
                 <objectIdentifier xml:id="Conserv">
                     <msName>The Conservator</msName>
                 </objectIdentifier>
-                <note n="3"><hi rend="italic">The Conservator</hi> was a monthly newspaper founded
+                <note><hi rend="italic">The Conservator</hi> was a monthly newspaper founded
                     and edited by Traubel for 30 years. The newspaper frequently reflected its
                     editor's idiosyncratic philosophy and crusaded for libertarian
                     principles.</note>
@@ -189,7 +184,7 @@
                 <birth when="1856-08-08">8 August 1856</birth>
                 <death when="1943-03-10">10 March 1943</death>
                 <occupation>author</occupation>
-                <note n="4">Thomas Anstey Guthrie was an English journalist and humor novelist known
+                <note>Thomas Anstey Guthrie was an English journalist and humor novelist known
                     for<hi rend="italic">Vice Versa</hi>. He also wrote for stories for <hi
                     rend="italic">Punch</hi> magazine, including <hi rend="italic">The Man from
                     Blankley's</hi>, which was adapted into theatrical production.</note>
@@ -201,7 +196,7 @@
                 <objectIdentifier xml:id="tbb">
                     <msName>The Brass Bottle</msName>
                 </objectIdentifier>
-                <note n="5"><hi rend="italic">The Brass Bottle</hi> is a comedic novel by Thomas
+                <note><hi rend="italic">The Brass Bottle</hi> is a comedic novel by Thomas
                     Anstey Guthrie, published under the pseudonym F. Anstey. The story follows a man
                     who awakens a genie.</note>
             </object>
@@ -212,7 +207,7 @@
                 <objectIdentifier xml:id="tcr">
                     <msName>The Conjurer's Revenge</msName>
                 </objectIdentifier>
-                <note n="6"><hi rend="italic">The Conjurer's Revenge</hi> is a short story by
+                <note><hi rend="italic">The Conjurer's Revenge</hi> is a short story by
                     Chesnutt reprinted in <hi rend="italic">The Conjure Woman</hi> after its initial
                     publication in <hi rend="italic">Overland Monthly</hi>. In this tale, Uncle
                     Julius tells John and Annie about someone who was turned into a mule by the
@@ -226,7 +221,7 @@
                 <birth when="1860-05-09">9 May 1860</birth>
                 <death when="1937-06-19">19 June 1937</death>
                 <occupation>author</occupation>
-                <note n="7">J.M. Barrie was a Scottish novelist and playwright best known for
+                <note>J.M. Barrie was a Scottish novelist and playwright best known for
                     writing <hi rend="italic">Peter Pan</hi>. George V made made Barrie a baronet in
                     1913 and a member of the Order of Merit in 1922.</note>
             </person>
@@ -237,7 +232,7 @@
                 <objectIdentifier xml:id="lwb">
                     <msName>Little White Bird</msName>
                 </objectIdentifier>
-                <note n="8"><hi rend="italic">Little White Bird</hi> is a novel by J.M. Barrie,
+                <note><hi rend="italic">Little White Bird</hi> is a novel by J.M. Barrie,
                     published in 1902 by Hodder &amp; Stoughton and Scribner &amp; Sons. It was also
                     serialized in <hi rend="italic">Scribner's</hi> magazine. The book introduces
                     the character of Peter Pan and several of the chapters that include Pan were
@@ -251,7 +246,7 @@
                 <objectIdentifier xml:id="sbp">
                     <msName>Sis' Becky's Pickanninny</msName>
                 </objectIdentifier>
-                <note n="9"><hi rend="italic">Sis' Becky's Pickanninny</hi>is a conjure tale by
+                <note><hi rend="italic">Sis' Becky's Pickanninny</hi>is a conjure tale by
                     Chesnutt featured in <hi rend="italic">The Conjure Woman</hi>. The story takes
                     place after John and Annie have moved South. John and Uncle Julius discuss
                     Julius's rabbit's foot and other supersitious behaviors; Julius claims that if
