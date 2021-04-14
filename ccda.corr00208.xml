@@ -106,10 +106,10 @@
                     <addrLine>Mr. Horace L. Traubel,</addrLine>
                     <addrLine>Camden, N.J.</addrLine>
                     </address> <salute>My Dear Traubel:&#8212;<ref type="editorial" resp="#slg"
-                    n="1" target="Traub"/></salute> </opener>
+                    target="Traub"/></salute> </opener>
 
                 <p hand="#h02">Your kind note asking me for a word to read on the occasion of the
-                    Walt Whitman Fellowship Meeting<ref type="editorial" resp="#csm" n="2"
+                    Walt Whitman Fellowship Meeting<ref type="editorial" resp="#csm"
                     target="wwfi"/> on May 31st, came duly to hand. I did not reply promptly because
                     I have been exceedingly busy for the past month, and had hoped to be present in
                     New York at the date of the meeting, when I should have looked up the convention
@@ -145,18 +145,13 @@
                     <hi rend="italic">The Worker</hi>. He is best known for being Whitman's literary
                     executor and author of a nine-volume biography of Whitman's final four years
                     (1888-1892), entitled <hi rend="italic">Walt Whitman in Camden</hi>.</note>
-                <note n="1">This is one of the earliest letters that Chesnutt send Traubel. The two
-                    men had a friendly working relationship; Chesnutt was a fan of the magazine that
-                    Traubel founded, <hi rend="italic">The Conservator</hi>, and Traubel
-                    consistently praised Chesnutt and his writing in reviews featured in his
-                    periodical.</note>
             </person>
         </listPerson>
 
         <listOrg type="literary">
                 <org xml:id="wwfi">
                     <orgName>Walt Whitman Fellowship: International</orgName>
-                <note n="2">The Walt Whitman Fellowship: International was formally organized by
+                <note>The Walt Whitman Fellowship: International was formally organized by
                     Horace Traubel and several of Whitman's close friends in 1894, two years after
                     Whitman's death, in order to ensure that Whitman's literary legacy would
                     continue&#8212;and to celebrate his birthday each year. From 1895-1900 the group
