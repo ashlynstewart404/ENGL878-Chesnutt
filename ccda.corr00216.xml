@@ -142,7 +142,7 @@ a<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP
                 <death when="1952-01-18">18 January 1952</death>
                 <occupation>secretary-treasurer</occupation>
                 <affiliation>The Journal of Negro History</affiliation>
-                <note n="1">Samuel Wilson Rutherford was the Secretary-Treasurer of the Association for the Study of African American Life, which published the Journal of Negro History.  He was also a close friend of editor Woodson. Rutherford’s duties for the journal included managing subscription fees and accounts. With his experience and notoriety as a banker in Washington D.C., he was well known as a man of business (“Samuel Wilson Rutherford." The Journal of Negro History 37, no. 2 (1952): 216-17. JSTOR, http://www.jstor.org/stable/2715353).</note>
+                <note>Samuel Wilson Rutherford was the Secretary-Treasurer of the Association for the Study of African American Life, which published the Journal of Negro History.  He was also a close friend of editor Woodson. Rutherford’s duties for the journal included managing subscription fees and accounts. With his experience and notoriety as a banker in Washington D.C., he was well known as a man of business (“Samuel Wilson Rutherford." The Journal of Negro History 37, no. 2 (1952): 216-17. JSTOR, http://www.jstor.org/stable/2715353).</note>
             </person>
         </listPerson>
         <listObject>
@@ -150,7 +150,7 @@ a<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP
                     <objectIdentifier xml:id="jnh">
                         <msName>The Journal of Negro History</msName>
                     </objectIdentifier>
-                    <note n="2"><hi rend="italic">The Journal of Negro History</hi> was founded in 1916 by Dr. Carter G. Woodson, as one of the first journals to cover African American history. Though Chesnutt was consistently a subscriber to the journal, he did not contribute any publications.</note>
+                    <note><hi rend="italic">The Journal of Negro History</hi> was founded in 1916 by Dr. Carter G. Woodson, as one of the first journals to cover African American history. Though Chesnutt was consistently a subscriber to the journal, he did not contribute any publications.</note>
                 </object> 
         </listObject>        
     </standOff>

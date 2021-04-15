@@ -139,7 +139,7 @@
                 <occupation>editor</occupation>
                 <occupation>historian</occupation>
                 <affiliation>The Journal of Negro History</affiliation>
-                <note n="1">Carter G. Woodson was a professor and historian at Howard University. He was among the first black scholars to receive a doctoral degree and a pioneer of black history and African American studies. He founded <hi rend="italic">The Journal of African American History</hi> (formally the <hi rend="italic">Journal of Negro History</hi>), in January 1916 as one of the first scholarly texts or journals to cover African-American history. Woodson was the editor until 1950 (Korey Bowers Brown, “Carter G. Woodson,” <hi rend="italic">Our History</hi> Association for the Study of African American Life and History, https://asalh.org/about-us/our-history/). 
+                <note>Carter G. Woodson was a professor and historian at Howard University. He was among the first black scholars to receive a doctoral degree and a pioneer of black history and African American studies. He founded <hi rend="italic">The Journal of African American History</hi> (formally the <hi rend="italic">Journal of Negro History</hi>), in January 1916 as one of the first scholarly texts or journals to cover African-American history. Woodson was the editor until 1950 (Korey Bowers Brown, “Carter G. Woodson,” <hi rend="italic">Our History</hi> Association for the Study of African American Life and History, https://asalh.org/about-us/our-history/). 
                 </note>
             </person>
         </listPerson>
@@ -149,7 +149,7 @@
                 <objectIdentifier xml:id="jnh">
                     <msName>The Journal of Negro History</msName>
                 </objectIdentifier>
-                <note n="2"><hi rend="italic">The Journal of Negro History</hi> was founded in 1916 by Dr. Carter G. Woodson, as one of the first journals to cover African American history. Though Chesnutt was consistently a subscriber to the journal, he did not contribute any publications.</note>
+                <note><hi rend="italic">The Journal of Negro History</hi> was founded in 1916 by Dr. Carter G. Woodson, as one of the first journals to cover African American history. Though Chesnutt was consistently a subscriber to the journal, he did not contribute any publications.</note>
             </object>
         </listObject> 
         
