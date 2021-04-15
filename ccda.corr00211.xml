@@ -90,6 +90,7 @@
 
         <revisionDesc>
             <change when="2021-03-29" who="#csm">transcribed, encoded and annotated letter</change>
+            <change when="2021-04-15" who="#slg">proofread letter</change>
         </revisionDesc>
 
     </teiHeader>
@@ -107,26 +108,26 @@
                     1905.</date></add></dateline>
 
                 <opener> <address>
-                    <addrLine> Horace Traubel, Esq.,</addrLine>
+                    <addrLine>Horace Traubel, Esq.,</addrLine>
                     <addrLine>1624 Walnut Street,</addrLine>
-                    <addrLine>Philadelphia, Pa.,</addrLine>
+                    <addrLine>Philadelphia, Pa.</addrLine>
                     </address> <salute>My dear Mr. Traubel:&#8212;<ref type="editorial" resp="#slg"
-                    n="1" target="Traub"/></salute> </opener>
+                    target="Traub"/></salute> </opener>
 
                 <p hand="#h02">On September 16th last I addressed you a letter, in which I enclosed
                     a money order for $2.25, for a copy of the popular edition of Leaves of
-                    Grass"<ref type="editorial" resp="#csm" n="2" target="LoG"/> and a copy of
-                    "Chants Communal."<ref type="editorial" resp="#csm" n="3" target="Chants"/> As I
+                    Grass"<ref type="editorial" resp="#csm" target="LoG"/> and a copy of
+                    "Chants Communal."<ref type="editorial" resp="#csm" target="Chants"/> As I
                     have not received the books, I have been wondering if my letter miscarried or
                     was perhaps mislaid after reaching its destination. If you will kindly let me
                     know whether it came to hand or not, I shall be obliged.</p>
 
                 <p>Did you get a copy of "The Colonel's Dream"?<ref type="editorial" resp="#as"
-                    n="4" target="Colsdream"/> I am under the impression that I requested my
+                    target="Colsdream"/> I am under the impression that I requested my
                     publishers to send it, though I presume you are on their list. I hope the book,
                     or at least my motive in writing<add hand="#h03">,</add> it will commend itself
                     to you. I have just been reading your appreciation of Henry Irving<ref
-                    type="editorial" resp="#csm" n="4" target="hirving"/> it is very fine and very
+                    type="editorial" resp="#csm" target="hirving"/> it is very fine and very
                     just. The world is better because he lived.</p>
 
                 <closer> <salute>Sincerely yours,</salute> <signed hand="#h03">Chas. W.
@@ -156,11 +157,6 @@
                     <hi rend="italic">The Worker</hi>. He is best known for being Whitman's literary
                     executor and author of a nine-volume biography of Whitman's final four years
                     (1888-1892), entitled <hi rend="italic">Walt Whitman in Camden</hi>.</note>
-                <note n="1">This is one of the earliest letters that Chesnutt send Traubel. The two
-                    men had a friendly working relationship; Chesnutt was a fan of the magazine that
-                    Traubel founded, <hi rend="italic">The Conservator</hi>, and Traubel
-                    consistently praised Chesnutt and his writing in reviews featured in his
-                    periodical.</note>
             </person>
         </listPerson>
 
@@ -171,7 +167,7 @@
                 </objectIdentifier>
                 <note><hi rend="italic">Leaves of Grass</hi> is Walt Whitman's most renowned work;
                     seven revised editions of the collection in Whitman's lifetime.</note>
-                <note n="2">The "popular edition" that Chesnutt refers to is likely the Deathbed
+                <note>The "popular edition" that Chesnutt refers to is likely the Deathbed
                     Edition of <hi rend="italics">Leaves of Grass</hi>, published just two months
                     before Whitman's death. In a statement announcing the publication of this
                     edition, Whitman claimed that <hi rend="italic">Leaves of Grass</hi> was finally
@@ -184,7 +180,7 @@
                 <objectIdentifier xml:id="Chants">
                     <msName>Chant's Communal</msName>
                 </objectIdentifier>
-                <note n="3"><hi rend="italic">Chant's Communal</hi>was a collection of many of the
+                <note><hi rend="italic">Chant's Communal</hi>was a collection of many of the
                     essays that Horace Traubel wrote for <hi rend="italic">The Worker</hi>, a weekly
                     socialist newspaper that he helped found.</note>
             </object>
@@ -195,7 +191,7 @@
                 <objectIdentifier xml:id="Colsdream">
                     <msName>The Colonel's Dream</msName>
                 </objectIdentifier>
-                <note n="4"><hi rend="italic">The Colonel's Dream</hi> (1905) was Chesnutt's final
+                <note><hi rend="italic">The Colonel's Dream</hi> (1905) was Chesnutt's final
                     novel. The book gained little critical attention and didn't sell well&#8212;a
                     reality that stood in opposition to the book's dedication: "to bring the forces
                     of enlightenment to bear upon the vexed problems which harass the South." <hi
@@ -216,7 +212,7 @@
                 <birth when="1838-02-06">6 February 1838</birth>
                 <death when="1905-10-13">13 October 1905</death>
                 <occupation>actor</occupation>
-                <note n="5">Sir Henry Irving was a renowned English actor and manager at the Lyceum
+                <note>Sir Henry Irving was a renowned English actor and manager at the Lyceum
                     Theater, where he eventually established his own Company. Throughout his
                     lifetime, he starred in several shows, including <hi rend="italic">Hamlet</hi>,
                     <hi rend="italic">The Bells</hi> and <hi rend="italic">Queen Mary</hi>. Irving
