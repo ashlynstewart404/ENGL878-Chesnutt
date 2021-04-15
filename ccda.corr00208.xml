@@ -72,7 +72,7 @@
                 </correspAction>
                 <correspAction type="deliveredTo">
                     <persName ref="https://viaf.org/viaf/44423462/">Traubel, Horace</persName>
-                    <placeName ref="https://viaf.org/viaf/168674210/">Camden</placeName>
+                    <placeName ref="https://www.geonames.org/4501018">Camden</placeName>
                 </correspAction>
             </correspDesc>
 
@@ -100,11 +100,11 @@
                     WILLIAMSON BUILDING<lb/>CLEVELAND, O.</fw>
 
                 <dateline><add hand="#h02">Cleveland,<date when="1905-06-02">June
-                    2,</date>1905</add></dateline>
+                    2,</date>1905.</add></dateline>
 
                 <opener hand="#h02"> <address>
                     <addrLine>Mr. Horace L. Traubel,</addrLine>
-                    <addrLine>Camden, N.J.</addrLine>
+                    <addrLine>Camden, N. J.</addrLine>
                     </address> <salute>My Dear Traubel:&#8212;<ref type="editorial" resp="#slg"
                     target="Traub"/></salute> </opener>
 
