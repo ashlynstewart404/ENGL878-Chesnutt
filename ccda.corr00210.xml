@@ -87,6 +87,7 @@
 
         <revisionDesc>
             <change when="2021-03-29" who="#csm">transcribed, encoded and annotated letter</change>
+            <change when="2021-04-15" who="#slg">proofread letter</change>
         </revisionDesc>
 
     </teiHeader>
@@ -104,12 +105,12 @@
 
                 <opener> <address>
                     <addrLine> Horace Traubel, Esq.,</addrLine>
-                    <addrLine>Camden, N.J.</addrLine>
-                    </address> <salute>My dear Traubel:<ref type="editorial" resp="#slg" n="1"
+                    <addrLine>Camden, N .J.</addrLine>
+                    </address> <salute>My dear Traubel:<ref type="editorial" resp="#slg"
                     target="Traub"/></salute> </opener>
 
                 <p hand="#h02">Thank you very much for your kindly characterization of my work in
-                    The Conservator <ref type="editorial" resp="#slg" n="2" target="Conserv"/> in
+                    The Conservator <ref type="editorial" resp="#slg" target="Conserv"/> in
                     June. Appreciation of this sort is very encouraging. If present tendencies
                     continue much longer, the colored people of this nation are likely to need
                     friends and it is quite clear that they can count you among them.</p>
@@ -138,11 +139,6 @@
                     <hi rend="italic">The Worker</hi>. He is best known for being Whitman's literary
                     executor and author of a nine-volume biography of hitman's final four years
                     (1888-1892), entitled <hi rend="italic">Walt Whitman in Camden</hi>.</note>
-                <note n="1">This is one of the earliest letters that Chesnutt send Traubel. The two
-                    men had a friendly working relationship; Chesnutt was a fan of the magazine that
-                    Traubel founded, <hi rend="italic">The Conservator</hi>, and Traubel
-                    consistently praised Chesnutt and his writing in reviews featured in his
-                    periodical.</note>
             </person>
         </listPerson>
 
@@ -151,7 +147,7 @@
                 <objectIdentifier xml:id="Conserv">
                     <msName>The Conservator</msName>
                 </objectIdentifier>
-                <note n="2"><hi rend="italic">The Conservator</hi> was a monthly newspaper founded
+                <note><hi rend="italic">The Conservator</hi> was a monthly newspaper founded
                     and edited by Traubel for 30 years. The newspaper frequently reflected its
                     editor's idiosyncratic philosophy and crusaded for libertarian
                     principles.</note>
