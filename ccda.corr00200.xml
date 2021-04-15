@@ -16,6 +16,10 @@
                     <resp>Transcription, encoding, and annotation</resp>                
                     <persName xml:id="slg">Samantha Gilmore</persName>
                 </respStmt>
+                <respStmt>
+                    <resp>Transcription, encoding, and annotation</resp>                
+                    <persName xml:id="as">Ashlyn Stewart</persName>
+                </respStmt>
             </titleStmt>
             
             <editionStmt>
@@ -88,6 +92,7 @@
         </profileDesc>
         
         <revisionDesc>
+            <change when="2021-04-15" who="as">proofed</change>
             <change when="2021-03-12" who="#slg">transcribed, encoded and annotated letter</change>
         </revisionDesc>
         
@@ -98,7 +103,7 @@
             <div1>
                 <pb facs="ccda.corr000200.001.jpg"/>
                 
-                <fw type="letterhead" place="top-left" hand="#h01">CHAS. W. CHESNUTT<lb/><del rend="strikethrough" hand="#h03">730</del><add place="supralinear" hand="#h02">1024</add> SOCIETY FOR SAVINGS BLD'G.</fw>
+                <fw type="letterhead" place="top-left" hand="#h01">CHAS. W. CHESNUTT<lb/><del rend="strikethrough" hand="#h03">730</del><add place="supralinear" hand="#h03">1024</add> SOCIETY FOR SAVINGS BLD'G.</fw>
                 <note hand="#h04" place="margin-left">f</note>
             
                 <dateline><add hand="#h01">Cleveland, O.</add><date when="1895-04-11"><add hand="#h02">April 11,</add> 189</date><add hand="#h02">5</add></dateline>

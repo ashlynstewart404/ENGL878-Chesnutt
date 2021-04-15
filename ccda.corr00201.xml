@@ -17,6 +17,10 @@
                     <resp>Transcription, encoding, and annotation</resp>
                     <persName xml:id="slg">Samantha Gilmore</persName>
                 </respStmt>
+                <respStmt>
+                    <resp>Proofing</resp>
+                    <persName xml:id="as">Ashlyn Stewart</persName>
+                </respStmt>
             </titleStmt>
 
             <editionStmt>
@@ -85,13 +89,14 @@
             </correspDesc>
 
             <handNotes>
-                <handNote xml:id="h01" medium="ink" resp="#cwc"/>
-                <handNote xml:id="h02" medium="pencil" resp="#unk"><name>Unknown</name></handNote>
+                <handNote xml:id="h03" medium="ink" resp="#cwc"/>
+                <handNote xml:id="h04" medium="pencil" resp="#unk"><name>Unknown</name></handNote>
             </handNotes>
 
         </profileDesc>
 
         <revisionDesc>
+            <change when="2021-04-15" who="#as">proofed</change>
             <change when="2021-03-20" who="#slg">transcribed, encoded and annotated letter</change>
         </revisionDesc>
 
@@ -102,10 +107,10 @@
             <div1>
                 <pb facs="ccda.corr000201.001.jpg"/>
 
-                <fw type="letterhead" place="top-right" hand="#h01">64 Brenton St.<lb/>Cleveland,
+                <fw type="letterhead" place="top-right" hand="#h03">64 Brenton St.<lb/>Cleveland,
                     O.</fw>
 
-                <note hand="#h02" place="margin-left">8</note>
+                <note hand="#h04" place="margin-left">8</note>
 
                 <dateline><date when="1900-05-05">May 5, 1900</date></dateline>
 
@@ -114,17 +119,17 @@
                         /></salute>
                 </opener>
 
-                <p hand="#h01">I meant to have acknowledged sooner the return of my manuscript "The
+                <p hand="#h03">I meant to have acknowledged sooner the return of my manuscript "The
                     Rainbow Chasers."<ref type="editorial" resp="#slg" n="1" target="trc"/> It is
                     pleasing to know that you think it has striking good qualities as a book; and
                     while you did not find it available for the Century,<ref type="editorial"
                         resp="#slg" target="#tc"/> I shall regard it as a favor&#8248;<add
-                        hand="#h01" place="supralinear">to me</add>on your part to have read it, and
+                        hand="#h04" place="supralinear">to me</add>on your part to have read it, and
                     shall hope for better luck with some future MS.</p>
 
                 <closer>
                     <salute>Yours sincerely,</salute>
-                    <signed hand="#h01">Chas. W. Chesnutt.</signed>
+                    <signed hand="#h03">Chas. W. Chesnutt.</signed>
                     
                     <address>
                         <addrLine>R.U. Johnson, Esq.,<lb/>Associate Editor.</addrLine>
