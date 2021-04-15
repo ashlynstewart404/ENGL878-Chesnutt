@@ -17,6 +17,10 @@
                     <resp>Transcription, encoding, and annotation</resp>
                     <persName xml:id="slg">Samantha Gilmore</persName>
                 </respStmt>
+                <respStmt>
+                    <resp>Proofing</resp>
+                    <persName xml:id="as">Ashlyn Stewart</persName>
+                </respStmt>
             </titleStmt>
 
             <editionStmt>
@@ -89,6 +93,7 @@
         </profileDesc>
 
         <revisionDesc>
+            <change when="2021-04-15" who="#as">proofing</change>
             <change when="2021-03-21" who="#slg">transcribed, encoded and annotated letter</change>
         </revisionDesc>
 
@@ -112,14 +117,16 @@
 
                 <p hand="#h03">Permit me to thank you for the copy of the The <hi rend="underline"
                         >Century</hi><ref type="editorial" resp="#slg" target="#tc"/> sent me,
-                    containing my story, "The March of &#8248;<add hand="#h03" place="supralinear"
+                    containing my story, "The March of &#8248;<add hand="#h04" place="supralinear"
                         >Progress"</add><ref type="editorial" resp="#slg" target="#MoP"/>. The
                     story has a good place among excellent company, and the illustration is very
                     effective. It is a pleasure to see, a specimen of one's work in your columns,
                     &amp; I hope it may not be the last.</p>
 
-                <p hand="#h03">Permit me to thank you also, on behalf of several readers, <pb
-                        facs="ccda.corr000204.002.jpg"/> for the poem by Paul L. Dunbar<ref
+                <p hand="#h03">Permit me to thank you also, on behalf of several readers, 
+                    
+                    <pb facs="ccda.corr000204.002.jpg"/> 
+                    for the poem by Paul L. Dunbar<ref
                         type="editorial" resp="#slg" target="#pld"/> "The Haunted Oak,"<ref
                         type="editorial" resp="#slg" target="#tho"/> which appeared in the
                     December <hi rend="underline">Century</hi>. If trees could talk, the single oak

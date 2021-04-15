@@ -13,6 +13,10 @@
                 <principal>Caitlin Matheis</principal>
                 
                 <respStmt>
+                    <resp>Proofed</resp>                
+                    <persName xml:id="as">Ashlyn Stewart</persName>
+                </respStmt>
+                <respStmt>
                     <resp>Transcription, encoding, and annotation</resp>                
                     <persName xml:id="slg">Samantha Gilmore</persName>
                 </respStmt>
@@ -87,6 +91,7 @@
         </profileDesc>
         
         <revisionDesc>
+            <change when="2021-04-15" who="#as">proofed</change>
             <change when="2021-03-20" who="#slg">transcribed, encoded and annotated letter</change>
         </revisionDesc>
         
@@ -97,8 +102,7 @@
             <div1>
                 <pb facs="ccda.corr000203.001.jpg"/>
                 
-                <fw type="letterhead" place="top-left" hand="#h01">CHAS. W. CHESNUTT<lb/><del rend="strikethrough" hand="#h03">730</del><add place="supralinear" hand="#h02">1024</add> SOCIETY FOR SAVINGS BLD'G.</fw>
-                <note hand="#h04" place="margin-left">f</note>
+                <fw type="letterhead" place="top-left" hand="#h01">CHAS. W. CHESNUTT<lb/><del rend="strikethrough" hand="#h03">730</del><add place="supralinear" hand="#h01">1024</add> SOCIETY FOR SAVINGS BLD'G.</fw>
             
                 <dateline><add hand="#h01">Cleveland, O.</add><date when="1899-05-19"><add hand="#h02">May 19</add> 189</date><add hand="#h02">9</add></dateline>
 

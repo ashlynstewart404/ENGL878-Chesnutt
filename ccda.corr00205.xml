@@ -11,7 +11,11 @@
                 <principal>Ashlyn Stewart</principal>
                 <principal>Samantha Gilmore</principal>
                 <principal>Caitlin Matheis</principal>
-
+                
+                <respStmt>
+                    <resp>Proofing</resp>
+                    <persName xml:id="as">Ashlyn Stewart</persName>
+                </respStmt>
                 <respStmt>
                     <resp>Transcription, encoding, and annotation</resp>
                     <persName xml:id="slg">Samantha Gilmore</persName>
@@ -89,6 +93,7 @@
         </profileDesc>
 
         <revisionDesc>
+            <change when="2021-04-15" who="#as">Proofing</change>
             <change when="2021-03-21" who="#slg">transcribed, encoded and annotated letter</change>
         </revisionDesc>
 
@@ -118,10 +123,7 @@
                     </salute>
                 </opener>
 
-                <p hand="#h01">Permit me to thank you very cordially for the warmly appreciative mention of myself and my writings, especially "The Wife of His Youth,"<ref
-                    type="editorial" resp="#slg" n="2" target="#WoHY"/> in the February number of your excellent magazine <add place="in-line" hand="#h03">"</add>The Conservator,<add place="in-line" hand="#h03">"</add> of which you were good enough to send me several copies. My thanks are also due for the equally friendly notice of "The Marrow of Tradition"<ref
-                        type="editorial" resp="#slg" n="3" target="#MoT"/>, in a former number of The Conservator, signed I think by the initials <add place="in-line" hand="#h03">"</add>A.M.,<add place="in-line" hand="#h03">"</add> which I take to be those of your Associate Editor Miss (?) Montgomerie <ref
-                        type="editorial" resp="#slg" target="#MissMont"/>. The writer who tries to treat these difficult themes in any other than a sensational way may not hope to number his readers by the hundreds of thousands, but he can find a large reward in the appreciation of discerning souls. This has not been denied me<add place="in-line" hand="#h03">,</add> and of it what you have said constitutes a very valuable part.</p>
+                <p hand="#h01">Permit me to thank you very cordially for the warmly appreciative mention of myself and my writings, especially "The Wife of His Youth,"<ref type="editorial" resp="#slg" n="2" target="#WoHY"/> in the February number of your excellent magazine <add place="in-line" hand="#h03">"</add>The Conservator,<add place="in-line" hand="#h03">"</add> of which you were good enough to send me several copies. My thanks are also due for the equally friendly notice of "The Marrow of Tradition"<ref type="editorial" resp="#slg" n="3" target="#MoT"/>, in a former number of The Conservator, signed I think by the initials <add place="in-line" hand="#h03">"</add>A.M.,<add place="in-line" hand="#h03">"</add> which I take to be those of your Associate Editor Miss (?) Montgomerie <ref type="editorial" resp="#slg" target="#MissMont"/>. The writer who tries to treat these difficult themes in any other than a sensational way may not hope to number his readers by the hundreds of thousands, but he can find a large reward in the appreciation of discerning souls. This has not been denied me<add place="in-line" hand="#h03">,</add> and of it what you have said constitutes a very valuable part.</p>
 
                 <closer>
                     <salute>Cordially yours,</salute>

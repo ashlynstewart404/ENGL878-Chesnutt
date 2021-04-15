@@ -13,6 +13,10 @@
                 <principal>Caitlin Matheis</principal>
 
                 <respStmt>
+                    <resp>Proofing</resp>
+                    <persName xml:id="as">Ashlyn Stewart</persName>
+                </respStmt>
+                <respStmt>
                     <resp>Transcription, encoding, and annotation</resp>
                     <persName xml:id="slg">Samantha Gilmore</persName>
                 </respStmt>
@@ -87,6 +91,7 @@
         </profileDesc>
 
         <revisionDesc>
+            <change when="2021-04-15" who="#as">proofing</change>
             <change when="2021-03-21" who="#slg">transcribed, encoded and annotated letter</change>
         </revisionDesc>
 
@@ -97,7 +102,7 @@
             <div1>
                 <pb facs="ccda.corr000206.001.jpg"/>
 
-                <fw type="letterhead" place="top-right" hand="#h01">1005 Williamson Building<lb/>Cleveland,
+                <fw type="letterhead" place="top-right" hand="#h03">1005 Williamson Building<lb/>Cleveland,
                     O.</fw>
                     
                 <dateline><date when="1902-08-16">Aug 16, 1902.</date></dateline>
@@ -115,21 +120,18 @@
                     </salute>
                 </opener>
 
-                <p hand="#h03">I have been intending for sometime to put the "Conservator"<ref type="editorial" resp="#slg"
-                    target="#Conserv"/> on the list of magazines which come to my house. It sounds a high clear note in favor of Truth and Justice and Civic Righteousness, which ought to be an doubtless is heard by many thousands, to whom I wish to be added. Will you kindly transmit the enclosed money order to the business man-<pb facs="ccda.corr000206.001.jpg"/>agement &amp; request that the Conservator be sent to<lb/>"Chas. W. Chesnutt<lb/>64 Brenton St.<lb/>Cleveland, O."</p>
+                <p hand="#h03">I have been intending for sometime to put the "Conservator"<ref type="editorial" resp="#slg" target="#Conserv"/> on the list of magazines which come to my house. It sounds a high clear note in favor of Truth and Justice and Civic Righteousness, which ought to be an doubtless is heard by many thousands, to whom I wish to be added. Will you kindly transmit the enclosed money order to the business <choice><orig>man-</orig><reg>management</reg></choice>
+                    
+                    <pb facs="ccda.corr000206.001.jpg"/><choice><orig>agement</orig><reg/></choice> &amp; request that the Conservator be sent to<lb/>"Chas. W. Chesnutt<lb/>64 Brenton St.<lb/>Cleveland, O."</p>
                 
                 <p>Permit me to assure you still further of my full appreciation of the kind things you have said about my books &amp;for your kindly interest in &amp; support of the cause which they have been written to promote.</p>
 
                 <closer>
                     <salute>Sincerely yours,</salute>
                     <signed hand="#h03">Chas. W. Chesnutt.</signed>
-
                 </closer>
-
             </div1>
-
         </body>
-
     </text>
 
     <standOff>
