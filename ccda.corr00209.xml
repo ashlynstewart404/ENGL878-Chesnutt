@@ -104,11 +104,13 @@
                 <opener hand="#h02"> <address>
                     <addrLine> Horace Traubel, Esq.,</addrLine>
                     <addrLine>1624 Walnut Street,</addrLine>
-                    <addrLine>Philadelphia, PA.</addrLine>
-                    </address> <salute>My dear Mr. Traubel:&#8212;<ref type="editorial" resp="#slg"
-                    n="1" target="Traub"/></salute> </opener>
+                    <addrLine>Philadelphia, Pa.</addrLine>
+                    </address> 
+                    
+                    <salute>My dear Mr. Traubel:&#8212;<ref type="editorial" resp="#slg"
+                    target="Traub"/></salute> </opener>
 
-                <p hand="#h02">My daughter Helen<ref type="editorial" resp="#csm" n="2" target="hmc"
+                <p hand="#h02">My daughter Helen<ref type="editorial" resp="#csm" target="hmc"
                     />, who was visiting recently in Philadelphia, tells me that she came very near
                     meeting you, but was called home by a telegram the day before she would have had
                     that pleasure. She has given me a couple of photographs which I think Mr.
@@ -118,13 +120,13 @@
                     his writings, and who at the same time has shown his appreciation of my own. I
                     hope to meet you personally before very long.</p>
 
-                <p hand="#h02">I see from the Conservator<ref type="editorial" resp="#slg" n="4"
-                    target="Conserv"/> that the Walt Whitman<ref type="editorial" resp="#as" n="5"
+                <p hand="#h02">I see from the Conservator<ref type="editorial" resp="#slg"
+                    target="Conserv"/> that the Walt Whitman<ref type="editorial" resp="#as" 
                     target="Whit"/> books can be obtained from you. I should like to have a copy of
-                    the popular edition of Leaves of Grass<ref type="editorial" resp="#csm" n="6"
+                    the popular edition of Leaves of Grass<ref type="editorial" resp="#csm"
                     target="LoG"/>, and a volume of <add hand="h03" place="supralinear">your
                     own</add><add hand="h03" place="below">^</add> Chants Communal<ref
-                    type="editorial" resp="#csm" n="7" target="Chants"/>. I enclose money order for
+                    type="editorial" resp="#csm" target="Chants"/>. I enclose money order for
                     $2.25, which I hope includes sufficient for the postage.</p>
 
 
@@ -152,11 +154,6 @@
                     <hi rend="italic">The Worker</hi>. He is best known for being Whitman's literary
                     executor and author of a nine-volume biography of hitman's final four years
                     (1888-1892), entitled <hi rend="italic">Walt Whitman in Camden</hi>.</note>
-                <note n="1">This is one of the earliest letters that Chesnutt send Traubel. The two
-                    men had a friendly working relationship; Chesnutt was a fan of the magazine that
-                    Traubel founded, <hi rend="italic">The Conservator</hi>, and Traubel
-                    consistently praised Chesnutt and his writing in reviews featured in his
-                    periodical.</note>
             </person>
         </listPerson>
 
@@ -166,7 +163,7 @@
                 <birth when="1880">1880</birth>
                 <death when="1969">1969</death>
                 <occupation>teacher</occupation>
-                <note n="2">Helen Maria Chesnutt was the daughter of Charles Chesnutt. After
+                <note>Helen Maria Chesnutt was the daughter of Charles Chesnutt. After
                     attending Smith College, she taught Latin at Central High School in Cleveland,
                     Ohio for many years, including to Langston Hughes. She co-authored a Latin
                     textbook, <hi rend="italic">The Road to Latin</hi> (1932) and served on the
@@ -182,7 +179,7 @@
                 <birth when="1849">1849</birth>
                 <death when="1914-11">November 1914</death>
                 <occupation>bibliophile</occupation>
-                <note n="3">William Carl Bolivar was a collector of African-American authored texts.
+                <note>William Carl Bolivar was a collector of African-American authored texts.
                     He also worked as a journalist, writing under the pseudonym "Pencil Pusher" in
                     <hi rend="italic">Philadelphia Tribune</hi> and served as a key member in
                     Philadelphia's American Negro Historical Society.</note>
@@ -194,7 +191,7 @@
                 <objectIdentifier xml:id="Conserv">
                     <msName>The Conservator</msName>
                 </objectIdentifier>
-                <note n="4"><hi rend="italic">The Conservator</hi> was a monthly newspaper founded
+                <note><hi rend="italic">The Conservator</hi> was a monthly newspaper founded
                     and edited by Traubel for 30 years. The newspaper frequently reflected its
                     editor's idiosyncratic philosophy and crusaded for libertarian
                     principles.</note>
@@ -207,7 +204,7 @@
                 <birth when="1898-05-31">31 May 1898</birth>
                 <death when="1892-03-26"/>
                 <occupation>poet</occupation>
-                <note n="5">Walt Whitman is America's most influential poet and a writer of global
+                <note>Walt Whitman is America's most influential poet and a writer of global
                     renown. His major work, <hi rend="italic">Leaves of Grass</hi>, underwent six
                     extremely different editions. He also wrote journalistic articles and fiction,
                     while leaving behind notebooks, manuscript fragments, prose essays, letters, and
@@ -220,7 +217,7 @@
                 <objectIdentifier xml:id="LoG">
                     <msName>Leaves of Grass</msName>
                 </objectIdentifier>
-                <note n="6"><hi rend="italic">Leaves of Grass</hi> is Walt Whitman's most renowned work;
+                <note><hi rend="italic">Leaves of Grass</hi> is Walt Whitman's most renowned work;
                     seven revised editions of the collection in Whitman's lifetime.</note>
             </object>
         </listObject>
@@ -231,7 +228,7 @@
                 <objectIdentifier xml:id="Chants">
                     <msName>Chant's Communal</msName>
                 </objectIdentifier>
-                <note n="7"><hi rend="italic">Chant's Communal</hi>was a collection of many of the
+                <note><hi rend="italic">Chant's Communal</hi>was a collection of many of the
                     essays that Horace Traubel wrote for <hi rend="italic">The Worker</hi>, a weekly
                     socialist newspaper that he helped found.</note>
             </object>
