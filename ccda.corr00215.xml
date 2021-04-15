@@ -81,7 +81,7 @@
             </correspDesc> 
            
             <handNotes>
-                <handNote xml:id="h01" medium="printed type" resp="#unk"><name xml:id="unk">Unknown</name></handNote>
+                <handNote xml:id="h01" medium="printed type" resp="#typ"><name>Typist</name></handNote>
                 <handNote xml:id="h02" medium="type" resp="#cwc"/>
                 <handNote xml:id="h04" medium="pencil" resp="#unk"><name>Unknown</name></handNote>
             </handNotes>
@@ -146,6 +146,14 @@
             </person>
         </listPerson>
         
+        <listPerson>            
+            <person xml:id="typ">
+                <persName>FSA</persName>
+                <occupation>typist</occupation>
+                <affiliation>The Journal of Negro History</affiliation>
+                <note>This unknown typist transcribed this piece of Chesnutt's correspondence.</note>
+            </person>
+        </listPerson>
         
         <listObject>
             <listObject>

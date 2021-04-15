@@ -81,7 +81,7 @@ a<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP
             </correspDesc> 
            
             <handNotes>
-                <handNote xml:id="h01" medium="printed type" resp="#unk"><name xml:id="unk">Unknown</name></handNote>
+                <handNote xml:id="h01" medium="printed type" resp="#typ"><name>Typist</name></handNote>
                 <handNote xml:id="h02" medium="type" resp="#cwc"/>
                 <handNote xml:id="h04" medium="pencil" resp="#unk"><name>Unknown</name></handNote>
             </handNotes>
@@ -143,6 +143,14 @@ a<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP
                 <occupation>secretary-treasurer</occupation>
                 <affiliation>The Journal of Negro History</affiliation>
                 <note>Samuel Wilson Rutherford was the Secretary-Treasurer of the Association for the Study of African American Life, which published the Journal of Negro History.  He was also a close friend of editor Woodson. Rutherford’s duties for the journal included managing subscription fees and accounts. With his experience and notoriety as a banker in Washington D.C., he was well known as a man of business (“Samuel Wilson Rutherford." The Journal of Negro History 37, no. 2 (1952): 216-17. JSTOR, http://www.jstor.org/stable/2715353).</note>
+            </person>
+        </listPerson>
+            <listPerson>
+                <person xml:id="typ">
+                <persName>FL</persName>
+                <occupation>typist</occupation>
+                <affiliation>The Journal of Negro History</affiliation>
+                    <note>This unknown typist transcribed this piece of Chesnutt's correspondence.</note>
             </person>
         </listPerson>
         <listObject>

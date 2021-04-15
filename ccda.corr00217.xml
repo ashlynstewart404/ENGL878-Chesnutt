@@ -75,13 +75,13 @@
                     <date sameAs="#date1"/>
                 </correspAction>
                 <correspAction type="deliveredTo">
-                    <persName ref="http://viaf.org/viaf/303746550">????</persName>
+                    <persName ref="https://viaf.org/viaf/19770339/">Carter G. Woodson</persName>
                     <placeName ref="https://www.geonames.org/4140963">Washington, D. C.</placeName>
                 </correspAction>
             </correspDesc> 
            
             <handNotes>
-                <handNote xml:id="h01" medium="printed type" resp="#unk"><name xml:id="unk">Unknown</name></handNote>
+                <handNote xml:id="h01" medium="printed type" resp="#typ"><name>Typist</name></handNote>
                 <handNote xml:id="h02" medium="type" resp="#cwc"/>
                 <handNote xml:id="h04" medium="pencil" resp="#unk"><name>Unknown</name></handNote>
             </handNotes>
@@ -141,8 +141,18 @@
                 <affiliation>The Journal of Negro History</affiliation>
                 <note>Carter G. Woodson was a professor and historian at Howard University. He was among the first black scholars to receive a doctoral degree and a pioneer of black history and African American studies. He founded <hi rend="italic">The Journal of African American History</hi> (formally the <hi rend="italic">Journal of Negro History</hi>), in January 1916 as one of the first scholarly texts or journals to cover African-American history. Woodson was the editor until 1950 (Korey Bowers Brown, “Carter G. Woodson,” <hi rend="italic">Our History</hi> Association for the Study of African American Life and History, https://asalh.org/about-us/our-history/). 
                 </note>
-            </person>
+            </person>        
         </listPerson>
+
+            <listPerson>            
+                <person xml:id="typ">
+                <persName>MOC</persName>
+                <occupation>typist</occupation>
+                <affiliation>The Journal of Negro History</affiliation>
+                <note>This unknown typist transcribed this piece of Chesnutt's correspondence.</note>
+            </person>
+            </listPerson>
+
         
         <listObject>
             <object type="magazine">
