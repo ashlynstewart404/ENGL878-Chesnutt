@@ -67,12 +67,12 @@
                 <correspAction type="sentBy">
                     <persName ref="http://viaf.org/viaf/22198527/" sameAs="#cwc">Chesnutt, Charles
                         W.</persName>
-                    <placeName ref="https://www.geonames.org/5150529/">Cleveland</placeName>
+                    <placeName ref="https://www.geonames.org/5150529/">Cleveland, Ohio</placeName>
                     <date sameAs="#date1"/>
                 </correspAction>
                 <correspAction type="deliveredTo">
                     <persName ref="http://viaf.org/viaf/303746550">Gilder, Richard W.</persName>
-                    <placeName ref="https://www.geonames.org/5128581">New York</placeName>
+                    <placeName ref="https://www.geonames.org/5128581">New York City, New York</placeName>
                 </correspAction>
             </correspDesc>
 
