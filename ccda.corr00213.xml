@@ -59,6 +59,8 @@
                 <msDesc>
                     <msIdentifier>
                         <repository>Manuscript Division, Library of Congress</repository>
+                        <collection>Horace Traubel and Anne Montgomerie Traubel Papers</collection>
+                        <idno type="callnumber">MSS43141</idno>
                     </msIdentifier>
                 </msDesc> 
                 
@@ -71,23 +73,23 @@
             <correspDesc>
                 <correspAction type="sentBy">
                     <persName ref="http://viaf.org/viaf/22198527/" sameAs="#cwc">Chesnutt, Charles W.</persName>
-                    <placeName ref="https://www.geonames.org/5150529/">Cleveland</placeName>
+                    <placeName ref="https://www.geonames.org/5150529/">Cleveland, Ohio</placeName>
                     <date sameAs="#date1"/>
                 </correspAction>
                 <correspAction type="deliveredTo">
-                    <persName ref="https://viaf.org/viaf/44423462/">Horace Traubel</persName>
+                    <persName ref="https://viaf.org/viaf/44423462/">Traubel, Horace</persName>
                 </correspAction>
             </correspDesc> 
            
             <handNotes>
                 <handNote xml:id="h01" medium="printed type" resp="#unk"><name xml:id="unk">Unknown</name></handNote>
-                <handNote xml:id="h02" medium="type" resp="#cwc"/>
-                <handNote xml:id="h03" medium="ink" resp="#cwc"><name>Unknown</name></handNote>
+                <handNote xml:id="h03" medium="ink" resp="#cwc"></handNote>
             </handNotes>
             
         </profileDesc>
         
         <revisionDesc>
+            <change when="2021-04-16" who="#csm">proofed</change>
             <change when="2021-04-05" who="#as">transcribed, encoded letter</change>
         </revisionDesc>
         
@@ -105,17 +107,17 @@
 
                 <opener>
                     
-                    <salute>My dear friend Traubel&#8212;<note type="editorial" resp="#slg" n="1" target="#Traub"/>
+                    <salute>My dear friend Traubel&#8212;<note type="editorial" resp="#slg" target="#Traub"/>
                 </salute>
                     
             </opener>
                 
-                <p hand="#h02">Yours of Oct. 10th is before me.  I ought to have sent you that book&#8212;meant to have sent it&#8212;thought I had sent it.  I gladly enclose the autograph for it.</p>
-                <p hand="#h02">I can only thank you for the kind things you have said, in your letter &#38; from time to time in the Conservator, about my books.  They are an inspiration such as comes only from one who reads with sympathy &#38; the inner visions.</p>
-                <p hand="#h02">I have been following your Whitman<note type="editorial" resp="#as" n="2" target="#Whit"/> writings.  You are a loyal friend, a sound critic, and entirely able to sustain your end of any controversy about Whitman&#8212;a great poet, touching deep chords of thougth &#38; feeling&#8212;whose fame will continue to grow greater with the years.</p>
+                <p hand="#h03">Yours of Oct. 10th is before me.  I ought to have sent you that book&#8212;meant to have sent it&#8212;thought I had sent it.  I gladly enclose the autograph for it.</p>
+                <p hand="#h03">I can only thank you for the kind things you have said, in your letter &#38; from time to time in the Conservator<note type="editorial" resp="#slg" target="#Conserv"/>, about my books.  They are an inspiration such as comes only from one who reads with sympathy &#38; the inner visions.</p>
+                <p hand="#h03">I have been following your Whitman<note type="editorial" resp="#as" target="#Whit"/> writings.  You are a loyal friend, a sound critic, and entirely able to sustain your end of any controversy about Whitman&#8212;a great poet, touching deep chords of thought &#38; feeling&#8212;whose fame will continue to grow greater with the years.</p>
                 
             <closer>
-                <salute>Gratefully,</salute>
+                <salute>Fraternally,</salute>
                 <signed hand="#h03">Chas. W. Chesnutt.</signed>
             </closer>
             </div1>
@@ -135,6 +137,14 @@
                 <note>Horace Traubel was an American poet, essayist, and author. Traubel was also a dedicated Socialist, and one of the founders of the socialist weekly newspaper <hi rend="italic">The Worker</hi>. He is best known for being Whitman's literary executor and author of a nine-volume biography of hitman's final four years (1888-1892), entitled <hi rend="italic">Walt Whitman in Camden</hi>.</note>
             </person>
         </listPerson>
+        <listObject>
+            <object type="magazine">
+                <objectIdentifier xml:id="Conserv">
+                    <msName>The Conservator</msName>
+                </objectIdentifier>
+                <note><hi rend="italic">The Conservator</hi> was a monthly newspaper founded and edited by Traubel for 30 years. The newspaper frequently reflected its editor's idiosyncratic philosophy and crusaded for libertarian principles.</note>
+            </object>
+        </listObject>   
         <listPerson type="literary">
             <person xml:id="Whit">
                 <persName>Walt Whitman</persName>
@@ -143,15 +153,7 @@
                 <occupation>poet</occupation>
                 <note>Walt Whitman is America's most influential poet and a writer of global renown. His major work, <hi rend="italic">Leaves of Grass</hi>, underwent six extremely different editions. He also wrote journalistic articles and fiction, while leaving behind notebooks, manuscript fragments, prose essays, letters, and marginalia. </note>
             </person>
-        </listPerson>
-        <listObject>
-            <object type="magazine">
-                <objectIdentifier xml:id="Conserv">
-                    <msName>The Conservator</msName>
-                </objectIdentifier>
-                <note><hi rend="italic">The Conservator</hi> was a monthly newspaper founded and edited by Traubel for 30 years. The newspaper frequently reflected its editor's idiosyncratic philosophy and crusaded for libertarian principles.</note>
-            </object>
-        </listObject>        
+        </listPerson>     
     </standOff>
     
 </TEI>

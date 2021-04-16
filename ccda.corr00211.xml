@@ -71,7 +71,7 @@
                     <date sameAs="#date1"/>
                 </correspAction>
                 <correspAction type="deliveredTo">
-                    <persName ref="https://viaf.org/viaf/44423462/">Horace Traubel</persName>
+                    <persName ref="https://viaf.org/viaf/44423462/">Traubel, Horace</persName>
                     <placeName ref="https://www.geonames.org/4560349">Philadelphia</placeName>
                 </correspAction>
             </correspDesc>
