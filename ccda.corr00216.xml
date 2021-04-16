@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-a<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.4.0.0/tei_all.rng"  type="xml"?>
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.4.0.0/tei_all.rng"  type="xml"?>
 
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ccda.corr00216">
     <teiHeader>
         <fileDesc>
             
             <titleStmt>
-                <title level="m" type="main">Charles W. Chesnutt to Editor of The Journal of Negro History, 3 January 1917</title>
+                <title level="m" type="main">Charles W. Chesnutt to The Journal of Negro History, 27 March 1923</title>
                 <author sameAs="#cwc"/>
                 <principal>Ashlyn Stewart</principal> 
                 <principal>Samantha Gilmore</principal>
@@ -59,6 +59,8 @@ a<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP
                 <msDesc>
                     <msIdentifier>
                         <repository>Manuscript Division, Library of Congress</repository>
+                        <collection>Horace Traubel and Anne Montgomerie Traubel Papers</collection>
+                        <idno type="callnumber">MSS43141</idno>
                     </msIdentifier>
                 </msDesc> 
                 
@@ -71,11 +73,11 @@ a<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP
             <correspDesc>
                 <correspAction type="sentBy">
                     <persName ref="http://viaf.org/viaf/22198527/" sameAs="#cwc">Chesnutt, Charles W.</persName>
-                    <placeName ref="https://www.geonames.org/5150529/">Cleveland</placeName>
+                    <placeName ref="https://www.geonames.org/5150529/">Cleveland, Ohio</placeName>
                     <date sameAs="#date1"/>
                 </correspAction>
                 <correspAction type="deliveredTo">
-                    <persName>S. W. Rutherford</persName>
+                    <persName>Rutherford, S. W.</persName>
                     <placeName ref="https://www.geonames.org/4140963">Washington, D. C.</placeName>
                 </correspAction>
             </correspDesc> 
@@ -89,6 +91,7 @@ a<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP
         </profileDesc>
         
         <revisionDesc>
+<change when="2021-04-16" who="#csm">proofed</change>
             <change when="2021-03-30" who="#as">transcribed, encoded letter</change>
             <change when="2021-03-22" who="#slg">annotated letter</change>
         </revisionDesc>
@@ -104,12 +107,12 @@ a<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP
                 <fw type="letterhead" place="top" hand="#h01">CHESNUTT &#38; MOORE<lb/> SHORTHAND REPORTERS<lb/> 1106 WILLIAMSON BUILDING<lb/> CLEVELAND</fw>
                 
                
-                <dateline><date when="1917-01-03"><add hand="#h02">March 27, 1923.</add></date></dateline>
+                <dateline><date when="1923-03-27"><add hand="#h02">March 27, 1923.</add></date></dateline>
 
                 <opener>
                     
                 <address>
-                    <addrLine>The Editor of The Journal of Negro History,<note type="editorial" resp="#slg" n="2" target="#jnh"/></addrLine>
+                    <addrLine>Journal of Negro History,<note type="editorial" resp="#slg" target="#jnh"/></addrLine>
                     <addrLine>1538 Ninth Street</addrLine>
                     <addrLine>Washington, D. C.</addrLine>
                 </address>
@@ -119,9 +122,9 @@ a<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP
                     
             </opener>
                 
-                <p hand="#h02"><hi rend="underline">Attention Mr. S. W. Rutherford, Sec'y-Treas.<note type="editorial" resp="#slg" n="1" target="swr"/></hi></p>
+                <p hand="#h02"><hi rend="underline">Attention Mr. S. W. Rutherford, Sec'y-Treas.<note type="editorial" resp="#slg" target="swr"/></hi></p>
                 <p hand="#h02">I have your letter of February 26th, calling attention to the fact that your records show that my subscription expired with the 1922 number, and enclosing bill for $4.00 covering subscription from January, 1922, to January, 1924.</p>
-                <p hand="#h02">My reference to my own records I find that on January 9, 1922, I sent you a check for $2.00 for subscription to the Journal one year in advance, and in return received your receipt dated January 10, 1922, reading as follows: "Received of Mr. Charles W. Chesnutt, $2.00 for renewal of subscription."  This would seem to indicate that your record in this respect is not correct, and that I owe you only $2.00, subscription for 1923 in advance, for which I enclose a check.  The Journal is serving a very useful prupose and I am very glad to get it, and read it with interest</p>
+                <p hand="#h02">My reference to my own records I find that on January 9, 1922, I sent you a check for $2.00 for subscription to the Journal one year in advance, and in return received your receipt dated January 10, 1922, reading as follows: "Received of Mr. Charles W. Chesnutt, $2.00 for renewal of subscription."  This would seem to indicate that your record in this respect is not correct, and that I owe you only $2.00, subscription for 1923 in advance, for which I enclose a check.  The Journal is serving a very useful purpose and I am very glad to get it, and read it with interest</p>
                 
             <closer>
                 <salute>Sincerely yours,</salute>
