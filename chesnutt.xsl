@@ -62,7 +62,7 @@
             <xsl:attribute name="href"><!--give it an attribute: href=-->
                 <xsl:value-of select="@target"/><!--What does href=?  The value in the target.  (don't need to specify TEI in attributes)-->
             </xsl:attribute>
-            LINK!<!--This <a> needs something to wrap around so that there's something to click-->
+            *<!--This <a> needs something to wrap around so that there's something to click-->
         </xsl:element>
     </xsl:template>
     
@@ -74,8 +74,8 @@
             <!--No text to wrap around because this is just a point-->
         </xsl:element>
         <h4><xsl:apply-templates select="tei:persName"/> (<xsl:apply-templates select="tei:birth"/>-<xsl:apply-templates select="tei:death"/>)</h4><!--In this h4 tag, we'll put just the name of this person (the child of this person called persname).  Then, we'll follow with birth and death years-->
-        <p>Occupation: <xsl:apply-templates select="tei:occupation"/></p>
-        <p>Affiliation: <xsl:apply-templates select="tei:affiliation"/></p>
+        <!--<p>Occupation: <xsl:apply-templates select="tei:occupation"/></p>
+        <p>Affiliation: <xsl:apply-templates select="tei:affiliation"/></p>-->
         
         <xsl:for-each select="tei:note">
             <p><xsl:apply-templates/></p>
@@ -106,3 +106,5 @@
 
 
 </xsl:stylesheet>
+
+
