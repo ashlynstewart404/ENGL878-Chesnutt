@@ -2,8 +2,6 @@
 /*  banner - Charles W. Chesnutt Publisher Correspondance */
 
 
- /* *{}this is a universal selector that will affect html on every page */
-
 html {
     background-color:blue;
     opacity:0.5;
@@ -12,7 +10,7 @@ html {
 
 body {
     background-color: purple;
-    width:auto; /* can change to pixels maybe */
+    width:auto;
     height:auto;
     margin-top:0px;
     margin-right:40px;
@@ -128,15 +126,11 @@ p.letterByline {
 /* classes that are not designated by a p tag
 
 .content {
-    font-size: 
-    line-height:  
-    font-weight:  
+    font-size:  
 }
 
 .pageTitle {
     font-size: 
-    line-height:  
-    font-weight: 
 }
  */
  
@@ -150,18 +144,12 @@ p.letterByline {
 /* probably delete these
 
 .columnTitle {
-
-} 
 }
 
-.columnsubHead {
-    
+.columnsubHead { 
 }
-
-
 
 .letter {
- 
 }
  * /
 
