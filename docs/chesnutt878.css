@@ -3,32 +3,25 @@
 
 
 html {
-    background-color:blue;
-    opacity:0.5;
+    background-color:navy;
+    font-family:roman, 'times new roman', times, serif;
+    color:black;
 }
 
 
 body {
-    background-color: purple;
+    background-color:white;
+    font-size:18px;
     width:auto;
     height:auto;
-    margin-top:0px;
-    margin-right:40px;
-    margin-bottom:10px;
-    margin-left:40px;
+    margin-top:10px;
+    margin-right:75px;
+    margin-left:75px;
+    padding:50px;
 }
-
-/*  excluding p.signed from here because maybe we want to do a cursive font for that hehe...  */
-
-body, h1, h2, h3, h4, h5, h6, h6, p.letter, p.salutation, p.letter_dateline, p.dateline, p.letter_byline, p.body_paragraph, p.citation, .pageTitle, .notes, .citation, .columnTitle, .columnSubHead, .footnote {
-    font-family:roman, 'times new roman', times, serif;
-    color:black;
-/* can and should i just move font family and font color to the html selector */
-}
-
 
 h1 {
-    font-size: 36px;
+    font-size: 40px;
 }
 
 h2 {
@@ -41,58 +34,73 @@ h3 {
 }
 
 h4 {
-    font-size: 24px;
+    font-size: 18px;
 }
 
-h5 {
-    font-size: 20px;
-}
-
-h6 {
-    font-size: 16px;
-}
 
 h1.banner {
     text-align:center;
+    margin-bottom:10px;
 }
 
 h2.banner {
     text-align:center;
+    border-bottom:solid;
+    border-color:grey;
+    margin-top:0px;
 }
 
-h3.title {
-    text-align:center;
+p{
+    text-align:left;
+}
+
+span.del{
+    background-color:yellow;
+    text-decoration:line-through;
+}
+
+span.add {
+    background-color:lime;
+}
+
+span.unknownPencil {
+    background-color:aqua;
 }
 
 
+p.dateline {
+    text-align:right;
+}
+
+p.signed{
+    font-family:Zapf-Chancery, cursive;
+    text-align:right;
+    margin-bottom:100px;
+}
 
 
+/* okay so i THINK this will work for making only links in the letters themselves superscript, not on the landing page because it selects all a tags with a p parent tag. The only place where it may cause a problem with the xml, css, xslt and the bottom of each page*/
+p>a {
+    vertical-align:super;
+    text-decoration:none;
+}
 
 
 /* 
-.unknown
-.printedtype
-.ink
-.pencil
-.type
+  a {
+    border-style:solid;
+    background-color:navy;
+    color:white;
+    text-decoration:none;
+    padding:13px;
+    text-align:center;
+}
  */
 
 
-/* use the following listed format if we want to keep all of the different p classes the same. if not, delete the classes that will be formatted differently and delete the included information from the individual selector */
 
-p, p.letter p.salutation, p.signed, p.letter_dateline, p.dateline, p.letter_byline, p.signed, p.body_paragraph .content, .pageTitle, .footnote, .notes, .citation {
-    font-size: 14px;
-}
+/*  
 
-
-
-/* delete anything in the following if it has already been included in group css and nothing specfic to that tag/class is being added */
-/* p{} */
-
-p.body_paragraph {
-    text-align:center;
-    text-indent:20px;
-}
 
 p.salutation {
     text-align:left;
@@ -101,6 +109,7 @@ p.salutation {
 p.signed {
     font-family:Zapf-Chancery, cursive;
     text-align:right;
+    margin-bottom:200px;
 }
 
 p.letter_dateline {
@@ -114,7 +123,7 @@ p.dateline {
 p.letterByline {
     text-align:left; 
 }
-
+ 
 .citation {
     text-align:center;
     border-top-style:solid;
@@ -122,46 +131,4 @@ p.letterByline {
     border-color:gray;
 }
 
-
-/* classes that are not designated by a p tag
-
-.content {
-    font-size:  
-}
-
-.pageTitle {
-    font-size: 
-}
- */
- 
-
-.footnote, .notes {
-    font-size: 14px;
-    text-align:center;
-}
-
-
-/* probably delete these
-
-.columnTitle {
-}
-
-.columnsubHead { 
-}
-
-.letter {
-}
- * /
-
-
-/* other html tags that may not need extra styling */
-
-
-a {
-    border-style:solid;
-    background-color:navy;
-    color:white;
-    text-decoration:none; /* none is used to remove underlines from links, add back if we don't want to do buttons */
-    padding:13px;
-    text-align:center;
-}
+*/
