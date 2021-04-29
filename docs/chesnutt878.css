@@ -2,7 +2,7 @@
 /*  banner - Charles W. Chesnutt Publisher Correspondance */
 
 
-*{} /* this is a universal selector that will affect html on every page */
+ /* *{}this is a universal selector that will affect html on every page */
 
 html {
     background-color:blue;
