@@ -78,7 +78,7 @@
 
 
     <!-- XSLT TO HANDLE ALL SORTS OF TEXT, DESIGN-Y, MANUSCRIPT ENCODING TRANSFORMATIONS -->
-    <xsl:template match="hi">
+    <!--<xsl:template match="hi">
         <xsl:choose>
             <xsl:when test="./attribute::rend='superscript'">
                 <sup><xsl:apply-templates/></sup>
@@ -91,6 +91,26 @@
             </xsl:when>
             <xsl:otherwise>
                 <xsl:apply-templates/>
+            </xsl:otherwise>
+        </xsl:choose>
+    </xsl:template>-->
+    
+    <xsl:template match="tei:hi">
+        <xsl:choose>            
+            <xsl:when test="contains(@rend, 'underline')">
+                <span class="u">
+                    <xsl:apply-templates/>
+                </span>
+            </xsl:when>
+            <xsl:when test="contains(@rend, 'italic')">
+                <span class="i">
+                    <xsl:apply-templates/>
+                </span>
+            </xsl:when>
+            <xsl:otherwise>
+                <p>
+                    <xsl:apply-templates/>
+                </p>
             </xsl:otherwise>
         </xsl:choose>
     </xsl:template>
