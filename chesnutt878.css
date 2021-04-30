@@ -1,0 +1,134 @@
+/* use commas to apply the same set of rules to multiple selectors */
+/*  banner - Charles W. Chesnutt Publisher Correspondance */
+
+
+html {
+    background-color:navy;
+    font-family:roman, 'times new roman', times, serif;
+    color:black;
+}
+
+
+body {
+    background-color:white;
+    font-size:18px;
+    width:auto;
+    height:auto;
+    margin-top:10px;
+    margin-right:75px;
+    margin-left:75px;
+    padding:50px;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 32px;
+}
+
+h3 {
+    font-size: 28px;
+
+}
+
+h4 {
+    font-size: 18px;
+}
+
+
+h1.banner {
+    text-align:center;
+    margin-bottom:10px;
+}
+
+h2.banner {
+    text-align:center;
+    border-bottom:solid;
+    border-color:grey;
+    margin-top:0px;
+}
+
+p{
+    text-align:left;
+}
+
+span.del{
+    background-color:yellow;
+    text-decoration:line-through;
+}
+
+span.add {
+    background-color:lime;
+}
+
+span.unknownPencil {
+    background-color:aqua;
+}
+
+
+p.dateline {
+    text-align:right;
+}
+
+p.signed{
+    font-family:Zapf-Chancery, cursive;
+    text-align:right;
+    margin-bottom:100px;
+}
+
+
+/* okay so i THINK this will work for making only links in the letters themselves superscript, not on the landing page because it selects all a tags with a p parent tag. The only place where it may cause a problem with the xml, css, xslt and the bottom of each page*/
+p>a {
+    vertical-align:super;
+    text-decoration:none;
+}
+
+
+/* 
+  a {
+    border-style:solid;
+    background-color:navy;
+    color:white;
+    text-decoration:none;
+    padding:13px;
+    text-align:center;
+}
+ */
+
+
+
+/*  
+
+
+p.salutation {
+    text-align:left;
+}
+
+p.signed {
+    font-family:Zapf-Chancery, cursive;
+    text-align:right;
+    margin-bottom:200px;
+}
+
+p.letter_dateline {
+    text-align:right;
+}
+
+p.dateline {
+    text-align:right; 
+}
+
+p.letterByline {
+    text-align:left; 
+}
+ 
+.citation {
+    text-align:center;
+    border-top-style:solid;
+    border-width: 8px;
+    border-color:gray;
+}
+
+*/
