@@ -33,11 +33,11 @@ h3 {
 }
 
 h4 {
-    font-size: 18px;
+    font-size: 22px;
 }
 
 h5 {
-    font-size:22px;
+    font-size:18px;
 }
 
 h1.banner {
@@ -57,36 +57,46 @@ p{
 }
 
 
-/* 
+
 span.del{
-    background-color:pale red;
+    background-color:yellow;
     text-decoration:line-through;
 }
 
 span.add {
-    background-color:pale green;
+    background-color:lime;
 }
 
 span.unknownPencil {
-    background-color:pale yellow;
+    background-color:aqua;
 }
- */
 
-p.dateline {
+
+p.closer {
     text-align:right;
 }
 
-p.signed{
-    font-family:Zapf-Chancery, cursive;
-    text-align:right;
-    margin-bottom:100px;
+span.i {
+    font-style:italic;
+}
+
+span.u {
+    text-decoration:underline;
 }
 
 
-/* okay so i THINK this will work for making only links in the letters themselves superscript, not on the landing page because it selects all a tags with a p parent tag. The only place where it may cause a problem with the xml, css, xslt and the bottom of each page*/
 p>a {
     vertical-align:super;
     text-decoration:none;
+}
+
+p.source>a {
+    text-decoration:underline;
+}
+
+
+.source{
+    font-size:8px;
 }
 
 
