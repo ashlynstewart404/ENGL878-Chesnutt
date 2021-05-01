@@ -11,7 +11,6 @@
         <html>
             <head>
                 <link rel="stylesheet" type="text/css" href="chesnutt878.css"/>
-                <title>Charles W. Chesnutt Publishers Correspondence</title>
             </head>
             <body>
                 <h1 class="banner">Charles W. Chesnutt Publisher Correspondence</h1>
