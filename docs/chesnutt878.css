@@ -14,9 +14,8 @@ body {
     font-size:18px;
     width:auto;
     height:auto;
-    margin-top:10px;
-    margin-right:75px;
-    margin-left:75px;
+    margin-right:175px;
+    margin-left:175px;
     padding:50px;
 }
 
@@ -37,6 +36,9 @@ h4 {
     font-size: 18px;
 }
 
+h5 {
+    font-size:22px;
+}
 
 h1.banner {
     text-align:center;
@@ -54,19 +56,21 @@ p{
     text-align:left;
 }
 
+
+/* 
 span.del{
-    background-color:yellow;
+    background-color:pale red;
     text-decoration:line-through;
 }
 
 span.add {
-    background-color:lime;
+    background-color:pale green;
 }
 
 span.unknownPencil {
-    background-color:aqua;
+    background-color:pale yellow;
 }
-
+ */
 
 p.dateline {
     text-align:right;
@@ -99,36 +103,3 @@ p>a {
 
 
 
-/*  
-
-
-p.salutation {
-    text-align:left;
-}
-
-p.signed {
-    font-family:Zapf-Chancery, cursive;
-    text-align:right;
-    margin-bottom:200px;
-}
-
-p.letter_dateline {
-    text-align:right;
-}
-
-p.dateline {
-    text-align:right; 
-}
-
-p.letterByline {
-    text-align:left; 
-}
- 
-.citation {
-    text-align:center;
-    border-top-style:solid;
-    border-width: 8px;
-    border-color:gray;
-}
-
-*/
