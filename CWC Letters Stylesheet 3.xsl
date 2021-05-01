@@ -167,7 +167,7 @@
     </xsl:template>
     
     
-    <!-- XSL TO MAKE THUMBNAILS AND IMAGES -->
+<!--    <XSL TO MAKE THUMBNAILS AND IMAGES
     
     <xsl:template match="tei:pb">
         <xsl:element name="a">
@@ -180,7 +180,7 @@
             </xsl:attribute>
         </xsl:element>
         </xsl:element>
-    </xsl:template>
+    </xsl:template> -->
     
     
     
