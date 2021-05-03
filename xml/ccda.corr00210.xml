@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.4.0.0/tei_all.rng"  type="xml"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ccda.corr00210">
+    <teiHeader>
+        <fileDesc>
+
+            <titleStmt>
+                <title level="m" type="main">Charles W. Chesnutt to Horace Traubel, 3 July
+                    1903</title>
+                <author sameAs="#cwc"/>
+                <principal>Ashlyn Stewart</principal>
+                <principal>Samantha Gilmore</principal>
+                <principal>Caitlin Matheis</principal>
+
+                <respStmt>
+                    <resp>Transcription, encoding, and annotation</resp>
+                    <persName xml:id="csm">Caitlin Matheis</persName>
+                </respStmt>
+            </titleStmt>
+
+            <editionStmt>
+                <edition> <date>2021</date> </edition>
+            </editionStmt>
+            <publicationStmt>
+
+                <distributor>English 878, Archives and Editions</distributor>
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <licence>http://creativecommons.org/licenses/by-nc-sa/3.0/</licence>
+                    <p>Licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0
+                        Unported License.</p>
+
+                </availability>
+
+                <idno>ccda.corr00210</idno>
+
+            </publicationStmt>
+
+            <sourceDesc>
+
+                <bibl> <author xml:id="cwc">Charles W. Chesnutt</author> <title>Charles W. Chesnutt
+                    to Horace Traubel, 3 July 1903</title> <date cert="high" when="1903-07-03">July
+                    3, 1903</date> </bibl>
+
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Manuscripts Division, Library of Congress </repository>
+                        <collection>Horace Traubel and Anne Montgomerie Traubel Papers</collection>
+                        <idno type="callnumber">MSS43141</idno>
+                    </msIdentifier>
+                </msDesc>
+
+            </sourceDesc>
+
+        </fileDesc>
+
+        <profileDesc>
+
+            <correspDesc>
+                <correspAction type="sentBy">
+                    <persName ref="http://viaf.org/viaf/22198527/" sameAs="#cwc">Chesnutt, Charles
+                        W.</persName>
+                    <placeName ref="https://www.geonames.org/5150529/">Cleveland, Ohio</placeName>
+                    <date sameAs="#date1"/>
+                </correspAction>
+                <correspAction type="deliveredTo">
+                    <persName ref="https://viaf.org/viaf/44423462/">Traubel, Horace</persName>
+                    <placeName ref="https://www.geonames.org/4501018">Camden, New Jersey</placeName>
+                </correspAction>
+            </correspDesc>
+
+            <handNotes>
+                <handNote xml:id="h01" medium="printed type" resp="#unk"><name xml:id="unk"
+                    >Unknown</name></handNote>
+                <handNote xml:id="h02" medium="type" resp="#cwc"/>
+                <handNote xml:id="h03" medium="ink" resp="#cwc"/>
+            </handNotes>
+
+        </profileDesc>
+
+        <revisionDesc>
+            <change when="2021-03-29" who="#csm">transcribed, encoded and annotated letter</change>
+            <change when="2021-04-15" who="#slg">proofread letter</change>
+        </revisionDesc>
+
+    </teiHeader>
+
+    <text type="correspondence">
+        <body>
+            <div1>
+                <pb facs="ccda.corr00210.001.jpg"/>
+
+                <fw type="letterhead" place="top-left" hand="#h01">CHAS. W. CHESNUTT<lb/>1005
+                    WILLIAMSON BUILDING<lb/>CLEVELAND, O.</fw>
+
+
+                <dateline>Cleveland, <date when="1903-07-03">July 3, 1903.</date></dateline>
+
+                <opener> <address>
+                    <addrLine> Horace Traubel, Esq.,</addrLine>
+                    <addrLine>Camden, N .J.</addrLine>
+                    </address> <salute>My dear Traubel:<ref type="editorial" resp="#slg"
+                    target="Traub"/></salute> </opener>
+
+                <p hand="#h02">Thank you very much for your kindly characterization of my work in
+                    The Conservator <ref type="editorial" resp="#slg" target="Conserv"/> in
+                    June. Appreciation of this sort is very encouraging. If present tendencies
+                    continue much longer, the colored people of this nation are likely to need
+                    friends and it is quite clear that they can count you among them.</p>
+
+                <closer> <salute>Cordially yours,</salute> <signed hand="#h03">Chas. W.
+                    Chesnutt</signed> </closer>
+
+
+            </div1>
+
+        </body>
+
+    </text>
+
+    <standOff>
+
+        <listPerson type="publishing">
+            <person xml:id="Traub">
+                <persName>Horace Traubel</persName>
+                <birth when="1858-12-19">19 December 1858</birth>
+                <death when="1919-09-09">9 September 1919</death>
+                <occupation>editor</occupation>
+                <affiliation>The Conservator</affiliation>
+                <note>Horace Traubel was an American poet, essayist, and author. Traubel was also a
+                    dedicated Socialist, and one of the founders of the socialist weekly newspaper
+                    <hi rend="italic">The Worker</hi>. He is best known for being Whitman's literary
+                    executor and author of a nine-volume biography of hitman's final four years
+                    (1888-1892), entitled <hi rend="italic">Walt Whitman in Camden</hi>.</note>
+            </person>
+        </listPerson>
+
+        <listObject>
+            <object type="magazine">
+                <objectIdentifier xml:id="Conserv">
+                    <msName>The Conservator</msName>
+                </objectIdentifier>
+                <note><hi rend="italic">The Conservator</hi> was a monthly newspaper founded
+                    and edited by Traubel for 30 years. The newspaper frequently reflected its
+                    editor's idiosyncratic philosophy and crusaded for libertarian
+                    principles.</note>
+            </object>
+        </listObject>
+
+    </standOff>
+
+</TEI>

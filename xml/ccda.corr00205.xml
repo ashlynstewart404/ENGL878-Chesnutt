@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://digitalhumanities.unl.edu/resources/schemas/tei/TEIP5.4.0.0/tei_all.rng"  type="xml"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ccda.corr00205">
+    <teiHeader>
+        <fileDesc>
+
+            <titleStmt>
+                <title level="m" type="main">Charles W. Chesnutt to Horace Traubel, 25 March 1902</title>
+                <author sameAs="#cwc"/>
+                <principal>Ashlyn Stewart</principal>
+                <principal>Samantha Gilmore</principal>
+                <principal>Caitlin Matheis</principal>
+                
+                <respStmt>
+                    <resp>Proofing</resp>
+                    <persName xml:id="as">Ashlyn Stewart</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Transcription, encoding, and annotation</resp>
+                    <persName xml:id="slg">Samantha Gilmore</persName>
+                </respStmt>
+            </titleStmt>
+
+            <editionStmt>
+                <edition>
+                    <date>2021</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+
+                <distributor>English 878, Archives and Editions</distributor>
+
+                <address>
+                    <addrLine>Center for Digital Research in the Humanities</addrLine>
+                    <addrLine>319 Love Library</addrLine>
+                    <addrLine>University of Nebraska-Lincoln</addrLine>
+                    <addrLine>P.O. Box 884100</addrLine>
+                    <addrLine>Lincoln, NE 68588-4100</addrLine>
+                </address>
+                <availability>
+                    <licence>http://creativecommons.org/licenses/by-nc-sa/3.0/</licence>
+                    <p>Licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0
+                        Unported License.</p>
+
+                </availability>
+
+                <idno>ccda.corr00205</idno>
+
+            </publicationStmt>
+
+            <sourceDesc>
+
+                <bibl>
+                    <author xml:id="cwc">Charles W. Chesnutt</author>
+                    <title>Charles W. Chesnutt to Horace Traubel, 25 March 1902</title>
+                    <date cert="high" when="1902-03-25">March 25, 1902</date>
+                </bibl>
+
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Manuscript Division, Library of Congress</repository>
+                        <collection>Horace Traubel and Anne Montgomerie Traubel Papers</collection>
+                        <idno type="callnumber">MSS43141</idno>
+                    </msIdentifier>
+                </msDesc>
+
+            </sourceDesc>
+
+        </fileDesc>
+
+        <profileDesc>
+
+            <correspDesc>
+                <correspAction type="sentBy">
+                    <persName ref="http://viaf.org/viaf/22198527/" sameAs="#cwc">Chesnutt, Charles
+                        W.</persName>
+                    <placeName ref="https://www.geonames.org/5150529/">Cleveland, Ohio</placeName>
+                    <date sameAs="#date1"/>
+                </correspAction>
+                <correspAction type="deliveredTo">
+                    <persName ref="http://viaf.org/viaf/44423462">Traubel, Horace</persName>
+                    <placeName ref="https://www.geonames.org/4560349">Philadelphia, Pennsylvania</placeName>
+                </correspAction>
+            </correspDesc>
+
+            <handNotes>
+                <handNote xml:id="h01" medium="printed type" resp="#unk"><name xml:id="unk">Unknown</name></handNote>
+                <handNote xml:id="h02" medium="type" resp="#cwc"/>
+                <handNote xml:id="h03" medium="ink" resp="#cwc"/>
+            </handNotes>
+
+        </profileDesc>
+
+        <revisionDesc>
+            <change when="2021-04-15" who="#as">Proofing</change>
+            <change when="2021-03-21" who="#slg">transcribed, encoded and annotated letter</change>
+        </revisionDesc>
+
+    </teiHeader>
+
+    <text type="correspondence">
+        <body>
+            <div1>
+                <pb facs="ccda.corr00205.001.jpg"/>
+
+                <fw type="letterhead" place="top-left" hand="#h01">CHAS. W. CHESNUTT<lb/>ATTORNEY-AT-LAW,<lb/>1005 WILLIAMSON BUILDING.</fw>
+                    
+                <dateline><add hand="#h01">Cleveland, O.</add><date when="1902-03-25"><add hand="#h02">March 25, 1902.</add></date></dateline>
+
+
+                <opener>
+                    
+                    <address>
+                        <addrLine>Mr. Horace Traubel,</addrLine>
+                        <addrLine>Editor <add place="in-line" hand="#h03">"</add>The Conservator,<add place="in-line" hand="#h03">"</add><ref
+                            type="editorial" resp="#slg" target="#Conserv"/></addrLine>
+                        <addrLine>Philadelphia.</addrLine>
+                    </address>
+                    
+                    <salute>My dear Mr. Traubel;&#8212;<ref type="editorial" resp="#slg" n="1"
+                            target="#Traub"/>
+                    </salute>
+                </opener>
+
+                <p hand="#h01">Permit me to thank you very cordially for the warmly appreciative mention of myself and my writings, especially "The Wife of His Youth,"<ref type="editorial" resp="#slg" n="2" target="#WoHY"/> in the February number of your excellent magazine <add place="in-line" hand="#h03">"</add>The Conservator,<add place="in-line" hand="#h03">"</add> of which you were good enough to send me several copies. My thanks are also due for the equally friendly notice of "The Marrow of Tradition"<ref type="editorial" resp="#slg" n="3" target="#MoT"/>, in a former number of The Conservator, signed I think by the initials <add place="in-line" hand="#h03">"</add>A.M.,<add place="in-line" hand="#h03">"</add> which I take to be those of your Associate Editor Miss (?) Montgomerie <ref type="editorial" resp="#slg" target="#MissMont"/>. The writer who tries to treat these difficult themes in any other than a sensational way may not hope to number his readers by the hundreds of thousands, but he can find a large reward in the appreciation of discerning souls. This has not been denied me<add place="in-line" hand="#h03">,</add> and of it what you have said constitutes a very valuable part.</p>
+
+                <closer>
+                    <salute>Cordially yours,</salute>
+                    <signed hand="#h03">Chas. W. Chesnutt.</signed>
+
+                </closer>
+
+            </div1>
+
+        </body>
+
+    </text>
+
+    <standOff>
+        <listPerson type="publishing">
+            <person xml:id="Traub">
+                <persName>Horace Traubel</persName>
+                <birth when="1858">1858</birth>
+                <death when="1919">1919</death>
+                <occupation>editor</occupation>
+                <affiliation>The Conservator</affiliation>
+                <note>Horace Traubel was an American poet, essayist, and author. Traubel was also a dedicated Socialist, and one of the founders of the socialist weekly newspaper <hi rend="italic">The Worker</hi>. He is best known for being Whitman's literary executor and author of a nine-volume biography of hitman's final four years (1888-1892), entitled <hi rend="italic">Walt Whitman in Camden</hi>.</note>
+                <note n="1">This is one of the earliest letters that Chesnutt send Traubel. The two men had a friendly working relationship; Chesnutt was a fan of the magazine that Traubel founded, <hi rend="italic">The Conservator</hi>, and Traubel consistently praised Chesnutt and his writing in reviews featured in his periodical.</note>
+            </person>
+        </listPerson>
+
+        <listPerson type="publishing">
+            <person xml:id="MissMont">
+                <persName>Anne Montgomerie Traubel</persName>
+                <birth when="1872">1872</birth>
+                <death when="1906">1906</death>
+                <occupation> editor</occupation>
+                <note>Anne Montgomerie Traubel was the wife of Horace Traubel. Anne was very involved with her husband's work, as she aided him in collecting and organizing Whitman's papers and was associate editor of <hi rend="italic">The Conservator</hi> (Jerome Loving and Alice L. Birney, ""A Young Woman Meets Walt Whitman": Anne Montgomerie Traubel's First Impression of the Poet," <hi rend="italic">Walt Whitman Quarterly Review</hi> 12, Fall 1994: 104-5).</note>
+            </person>
+        </listPerson>
+
+
+        <listObject>
+            <object type="magazine">
+                <objectIdentifier xml:id="Conserv">
+                    <msName>The Conservator</msName>
+                </objectIdentifier>
+                <note><hi rend="italic">The Conservator</hi> was a monthly newspaper founded and edited by Traubel for 30 years. The newspaper frequently reflected its editor's idiosyncratic philosophy and crusaded for libertarian principles.</note>
+            </object>
+
+            <object type="book">
+                <objectIdentifier xml:id="WoHY">
+                    <msName>The Wife of His Youth</msName>
+                </objectIdentifier>
+                <note>After its publication in the <hi rend="italic">Atlantic Monthly</hi>, the short story "The Wife of His Youth" became the title piece of his collection of nondialect works published in 1899, <hi rend="italic">The Wife of His Youth and Other Stories of the Color Line</hi>. As the title suggests, each of the stories in the collection examine racial issues of the time.</note>
+                <note n="2">The review mentioned, signed "T.", calls Chesnutt "a poet" and praises the novel <hi rend="italic">Wife of His Youth</hi>. The reviewer writes, "Chesnutt likes to take his stand on this difficult ground and depict the struggle of the two natures. For a man or woman of mixed blood practically suffers two ostracisms instead of one....Chesnutt does not hesitate to put it under his glass and does not shudder over the results of his analysis. His stories, which are without formal start or finish are better than sermons. they do more for the negro than schools and benefactions....[Chesnutt] knows that his business is to get his pictures honest. He is not afraid to trust an honest picture. An honest picture never fails" (T. "The Wife of His Youth," <hi rend="italic">The Conservator</hi> 12, February 1902: 188).</note>
+            </object>
+
+            <object type="book">
+                <objectIdentifier xml:id="MoT">
+                    <msName>Marrow of Tradition</msName>
+                </objectIdentifier>
+                <note>Chesnutt's ambitious and complex novel, <hi rend="italic">The Marrow of Tradition</hi>, was based on the 1898 race riot in Wilmington, North Carolina, which some of Chesnutt's relatives survived. This event left a considerable number of African Americans dead and expelled thousands more from their homes. Set in the fictional town of Wellington, The Marrow of Tradition centers on two prominent families, the Carterets and the Millers, and explores their remarkably intersected lives.</note>
+                <note n="3">Chesnutt's novel, <hi rend="italic">Marrow of Tradition</hi> received a short listing in <hi rend="italic">The Conservator</hi> for December 1901 under "Books and Pamphlets Received" (A.M. "Books and Pamphlets Received," <hi rend="italic">The Conservator</hi> 12, December 1901: 157).</note>
+            </object>
+
+        </listObject>
+
+    </standOff>
+
+</TEI>
