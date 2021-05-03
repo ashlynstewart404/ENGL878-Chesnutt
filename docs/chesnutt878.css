@@ -37,7 +37,7 @@ h5 {
 }
 
 h6 {
-    font-size:14px;
+    font-size:10px;
 }
 
 h1.banner {
@@ -90,26 +90,12 @@ p>a {
     text-decoration:none;
 }
 
-p.source>a {
-    text-decoration:underline;
-}
-
 
 .source{
     font-size:10px;
 }
 
 
-/* 
-  a {
-    border-style:solid;
-    background-color:navy;
-    color:white;
-    text-decoration:none;
-    padding:13px;
-    text-align:center;
-}
- */
 
 
 
