@@ -106,26 +106,26 @@
                     hand="#h02">April 24,</add> 189</date></dateline>
 
                 <opener> <salute hand="#h02">Dear Mr. Gilder:&#8212;<ref type="editorial"
-                    resp="#slg" n="1" target="rwg"/></salute> </opener>
+                    resp="#slg" n="1" target="#rwg"/></salute> </opener>
 
                 <note type="formula" hand="#h04" place="margin-left">17 <lb/>250 <lb rend="horBar"
                     />85 <lb/>34 <lb rend="horBar"/>4250</note>
 
                 <p hand="#h02">I send you herewith the manuscript of a story, or perhaps I ought to
                     say a sketch, entitled: "The March of Progress,"<ref type="editorial"
-                    resp="#slg" n="2" target="MoP"/> with the hope that you may be able to use it in
+                    resp="#slg" n="2" target="#MoP"/> with the hope that you may be able to use it in
                     the <hi rend="underline">Century</hi>.<ref type="editorial" resp="#slg" n="3"
                     target="tc"/> It does not pretend to "atmosphere": but it is a plain story of
                     plain people, although I think that gratitude is a fine theme and not
                     overworked.</p>
 
                 <p hand="#h02">My book "The Conjure Woman,"<ref type="editorial" resp="#csm" n="4"
-                    target="tcw"/> which is on Messrs. Houghton, Mifflin &amp; Co.'s<ref
-                    type="editorial" resp="#csm" n="5" target="hmc"/> Spring list, is doing very
+                    target="#tcw"/> which is on Messrs. Houghton, Mifflin &amp; Co.'s<ref
+                    type="editorial" resp="#csm" n="5" target="#hmc"/> Spring list, is doing very
                     well, and has been invariably commended by the newspaper reviewers, and by some
                     of the best of them at considerable length and in proncounced terms. The tales
                     are different from this however, which is more on the order of "The Wife of His
-                    Youth"<ref type="editorial" resp="#slg" n="6" target="WoHY"/>, which you were
+                    Youth"<ref type="editorial" resp="#slg" n="6" target="#WoHY"/>, which you were
                     good enough to read and give me your opinion about. If this story is
                     unavailable, kindly return the manuscript at as early a date as convenient, and
                     oblige</p>
