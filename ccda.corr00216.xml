@@ -112,7 +112,7 @@
                 <opener>
                     
                 <address>
-                    <addrLine>Journal of Negro History,<note type="editorial" resp="#slg" target="#jnh"/></addrLine>
+                    <addrLine>Journal of Negro History,<ref type="editorial" resp="#slg" target="#jnh"/></addrLine>
                     <addrLine>1538 Ninth Street</addrLine>
                     <addrLine>Washington, D. C.</addrLine>
                 </address>
@@ -122,7 +122,7 @@
                     
             </opener>
                 
-                <p hand="#h02"><hi rend="underline">Attention Mr. S. W. Rutherford, Sec'y-Treas.<note type="editorial" resp="#slg" target="swr"/></hi></p>
+                <p hand="#h02"><hi rend="underline">Attention Mr. S. W. Rutherford, Sec'y-Treas.<ref type="editorial" resp="#slg" target="swr"/></hi></p>
                 <p hand="#h02">I have your letter of February 26th, calling attention to the fact that your records show that my subscription expired with the 1922 number, and enclosing bill for $4.00 covering subscription from January, 1922, to January, 1924.</p>
                 <p hand="#h02">My reference to my own records I find that on January 9, 1922, I sent you a check for $2.00 for subscription to the Journal one year in advance, and in return received your receipt dated January 10, 1922, reading as follows: "Received of Mr. Charles W. Chesnutt, $2.00 for renewal of subscription."  This would seem to indicate that your record in this respect is not correct, and that I owe you only $2.00, subscription for 1923 in advance, for which I enclose a check.  The Journal is serving a very useful purpose and I am very glad to get it, and read it with interest</p>
                 
@@ -130,7 +130,7 @@
                 <salute>Sincerely yours,</salute>
                 <signed hand="#h03">Chas. W. Chesnutt.</signed>
             </closer>
-                <note type="authorial" hand="#h02">CWC/FL</note>
+                <note type="authorial" hand="#h02">CWC/FL<ref type="editorial" resp="slg" target="#typ"/></note>
             </div1>
             
         </body>

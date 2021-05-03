@@ -111,11 +111,11 @@
                 <opener> <address>
                     <addrLine>Horace Traubel, Esq.,</addrLine>
                     <addrLine>Camden, N. J.</addrLine>
-                    </address> <salute>Dear Friend Traubel:<note type="editorial" resp="#slg"
+                    </address> <salute>Dear Friend Traubel:<ref type="editorial" resp="#slg"
                     target="#Traub"/> </salute> </opener>
 
                 <p hand="#h02">Thank you very much for the proof of your notice of the Colonel's
-                    Dream.<note type="editorial" resp="#as" target="#Colsdream"/> It is
+                    Dream.<ref type="editorial" resp="#as" target="#Colsdream"/> It is
                     written with your characteristic breadth, vigor, lucidity and insight.</p>
 
                 <closer> <salute>With cordial regards,</salute><salute>Sincerely yours,</salute> <signed hand="#h03">Chas. W.
@@ -145,7 +145,7 @@
         <listObject>
             <object type="novel">
                 <objectIdentifier xml:id="Colsdream">
-                    <msName>The Colonel's Dream</msName>
+                    <msName>"The Colonel's Dream"</msName>
                 </objectIdentifier>
                 <note><hi rend="italic">The Colonel's Dream</hi> (1905) was Chesnutt's final novel.
                     The book gained little critical attention and didn't sell well&#8212;a reality

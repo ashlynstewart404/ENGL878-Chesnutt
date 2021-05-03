@@ -107,14 +107,14 @@
 
                 <opener>
                     
-                    <salute>My dear friend Traubel&#8212;<note type="editorial" resp="#slg" target="#Traub"/>
+                    <salute>My dear friend Traubel&#8212;<ref type="editorial" resp="#slg" target="#Traub"/>
                 </salute>
                     
             </opener>
                 
                 <p hand="#h03">Yours of Oct. 10th is before me.  I ought to have sent you that book&#8212;meant to have sent it&#8212;thought I had sent it.  I gladly enclose the autograph for it.</p>
-                <p hand="#h03">I can only thank you for the kind things you have said, in your letter &#38; from time to time in the Conservator<note type="editorial" resp="#slg" target="#Conserv"/>, about my books.  They are an inspiration such as comes only from one who reads with sympathy &#38; the inner visions.</p>
-                <p hand="#h03">I have been following your Whitman<note type="editorial" resp="#as" target="#Whit"/> writings.  You are a loyal friend, a sound critic, and entirely able to sustain your end of any controversy about Whitman&#8212;a great poet, touching deep chords of thought &#38; feeling&#8212;whose fame will continue to grow greater with the years.</p>
+                <p hand="#h03">I can only thank you for the kind things you have said, in your letter &#38; from time to time in the Conservator<ref type="editorial" resp="#slg" target="#Conserv"/>, about my books.  They are an inspiration such as comes only from one who reads with sympathy &#38; the inner visions.</p>
+                <p hand="#h03">I have been following your Whitman<ref type="editorial" resp="#as" target="#Whit"/> writings.  You are a loyal friend, a sound critic, and entirely able to sustain your end of any controversy about Whitman&#8212;a great poet, touching deep chords of thought &#38; feeling&#8212;whose fame will continue to grow greater with the years.</p>
                 
             <closer>
                 <salute>Fraternally,</salute>
@@ -148,8 +148,8 @@
         <listPerson type="literary">
             <person xml:id="Whit">
                 <persName>Walt Whitman</persName>
-                <birth when="1898-05-31"></birth>
-                <death when="1892-03-26"></death>
+                <birth when="1819-05-31">May 31, 1819</birth>
+                <death when="1892-03-26">March 26, 1892</death>
                 <occupation>poet</occupation>
                 <note>Walt Whitman is America's most influential poet and a writer of global renown. His major work, <hi rend="italic">Leaves of Grass</hi>, underwent six extremely different editions. He also wrote journalistic articles and fiction, while leaving behind notebooks, manuscript fragments, prose essays, letters, and marginalia. </note>
             </person>

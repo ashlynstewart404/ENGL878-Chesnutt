@@ -113,11 +113,11 @@
                     <addrLine>Journal of Negro History</addrLine>
                     <addrLine>1216 Y O U Street, N.W.,</addrLine>
                     <addrLine>Washington, D. C.</addrLine>
-                    </address> <salute>My dear Mr. Woodson:&#8212;<note type="editorial" resp="#slg"
+                    </address> <salute>My dear Mr. Woodson:&#8212;<ref type="editorial" resp="#slg"
                      target="cgw"/> </salute> </opener>
 
                 <p hand="#h02">I take pleasure in enclosing my check for $1.00 for renewel of annual
-                    subscription for the Journal of Negro History.<note type="editorial" resp="#slg"
+                    subscription for the Journal of Negro History.<ref type="editorial" resp="#slg"
                     target="#jnh"/></p>
                 <p hand="#h02">The Journal is a well edited dignified, worthy exponent of past and
                     present-day historical facts which might, for the lack of such an organ, be
@@ -128,7 +128,7 @@
 
                 <closer> <salute>Yours very truly,</salute> <signed hand="#h03">Chas. W.
                     Chesnutt.</signed> </closer>
-                <note type="authorial" hand="#h02">CWC:FSA</note>
+                <note type="authorial" hand="#h02">CWC:FSA<ref type="editorial" resp="slg" target="#typ"/></note>
             </div1>
 
         </body>

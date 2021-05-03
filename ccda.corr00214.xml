@@ -108,7 +108,7 @@
 
                 <dateline><date when="1915-12-29"><add hand="#h03">Dec. 29, 1915</add></date></dateline>
 
-                <opener> <salute>Dear Friend Traubel:&#8212;<note type="editorial" resp="#slg" target="#Traub"/></salute> </opener>
+                <opener> <salute>Dear Friend Traubel:&#8212;<ref type="editorial" resp="#slg" target="#Traub"/></salute> </opener>
 
                 <p hand="#h03">The receipt of your Birthay Card, for which please accept my thanks,
                     reminds me that I owe you a dollar, which please find enclosed.</p>

@@ -112,18 +112,18 @@
                     <addrLine>The Editor of The Journal of Negro History,</addrLine>
                     <addrLine>1219 You Street, N. W.,</addrLine>
                     <addrLine>Washington, D. C.</addrLine>
-                    </address> <salute>Dear Sir:-<note type="editorial" resp="#slg"
+                    </address> <salute>Dear Sir:-<ref type="editorial" resp="#slg"
                     target="#cgw"/></salute> </opener>
 
                 <p hand="#h02">I am very glad to add my name to the list of subscribers to The
-                    Journal of Negro History.<note type="editorial" resp="#slg" target="#jnh"/> It is so customary to assume that the Negro has contributed nothing
+                    Journal of Negro History.<ref type="editorial" resp="#slg" target="#jnh"/> It is so customary to assume that the Negro has contributed nothing
                     noteworthy to civilization, that a magazine, which in the interst of truth, will
                     call attention to the other side of the ledger, will supply a distinct need and
                     ought to be cordially and adequately supported.</p>
 
                 <closer> <salute>Sincerely yours,</salute> <signed hand="#h03">Chas. W.
                     Chesnutt.</signed> </closer>
-                <note type="authorial" hand="#h02">CWC:MOC</note>
+                <note type="authorial" hand="#h02">CWC:MOC<ref type="editorial" resp="slg" target="#typ"/></note>
             </div1>
 
         </body>
