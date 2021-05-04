@@ -18,8 +18,6 @@
                 <br/>
                 <h3><xsl:apply-templates select="//tei:titleStmt/tei:title"/></h3> 
                 <xsl:apply-templates/> 
-                <br/>
-                <h6>.xml file types will not display well in a browser.  Instead, click here to save the XML file to your computer if you want to see the original TEI encoding: <xsl:call-template name="xmlDownload"/></h6>     
             </body>
         </html>
     </xsl:template>
@@ -85,22 +83,6 @@
 
 
     <!-- XSLT TO HANDLE ALL SORTS OF TEXT, DESIGN-Y, MANUSCRIPT ENCODING TRANSFORMATIONS -->
-    <!--<xsl:template match="hi">
-        <xsl:choose>
-            <xsl:when test="./attribute::rend='superscript'">
-                <sup><xsl:apply-templates/></sup>
-            </xsl:when>
-            <xsl:when test="./attribute::rend='italic'">
-                <i><xsl:apply-templates/></i>
-            </xsl:when>
-            <xsl:when test="./attribute::rend='underline'">
-                <u><xsl:apply-templates/></u>
-            </xsl:when>
-            <xsl:otherwise>
-                <xsl:apply-templates/>
-            </xsl:otherwise>
-        </xsl:choose>
-    </xsl:template>-->
     
     <xsl:template match="tei:hi">
         <xsl:choose>            
@@ -188,8 +170,8 @@
     </xsl:template>
     
     
-    <!-- XSL TO MAKE THUMBNAILS AND IMAGES -->
     
+    <!-- XSL TO MAKE THUMBNAILS AND IMAGES -->
     <xsl:template match="tei:pb">
         <xsl:element name="a">
             <xsl:attribute name="href">
@@ -202,7 +184,6 @@
         </xsl:element>
         </xsl:element>
     </xsl:template>
-    
     
     
     
@@ -239,39 +220,13 @@
     </xsl:template>
  
  
-    <!-- TEMPLATE FOR <PB>S
-    <xsl:template match="tei:pb">
-        <xsl:element name="img">
-            <xsl:attribute name="src">
-                <xsl:value-of select="@facs"/>
-            </xsl:attribute>
-            <xsl:apply-templates/>
-        </xsl:element>
-    </xsl:template>-->
- 
+   
 <!--"RECIPE" TEMPLATES-->
     
     
 <!-- A NAMED TEMPLATE THAT WILL HOLD INFORMATION/OUTPUT TO BE CALLED ELSEWHERE -->
     
-    <xsl:template name="xmlDownload">
-        <xsl:variable name="href">
-            <xsl:value-of select="//TEI/@xml:id"/>
-        </xsl:variable>
-        <xsl:element name="h6">
-            <xsl:attribute name="class">xmlDownload</xsl:attribute>
-            <xsl:element name="a">
-                <xsl:attribute name="href">
-                    <xsl:value-of select="(concat('https://ashlynstewart404.github.io/ENGL878-Chesnutt/xml/', $href, '.xml'))"/>
-                </xsl:attribute>
-                <xsl:attribute name="download">
-                    <xsl:value-of select="$href"/>.xml</xsl:attribute>
-                Download source XML
-            </xsl:element>
-        </xsl:element>
-    </xsl:template>
-
-
+    
 </xsl:stylesheet>
 
 
